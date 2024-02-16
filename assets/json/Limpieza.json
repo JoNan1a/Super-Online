@@ -1,0 +1,81 @@
+{
+    "Limpieza": [
+        {
+            "nombre": "Esponja de Limpieza",
+            "tipo": "Art\u00edculos de Limpieza",
+            "codigo": "90876",
+            "precio": 2.29,
+            "img": "https:\/\/imgs.search.brave.com\/KupyI2oS6bjCLE5jxdLMxzOPwdNHdoQ-7B342ptLjuQ\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9zdGF0\/aWMudmVjdGVlenku\/Y29tL3N5c3RlbS9y\/ZXNvdXJjZXMvcHJl\/dmlld3MvMDA0Lzc5\/MC8xODcvbm9uXzJ4\/L2NsZWFuaW5nLXBv\/d2Rlci1vbi1hLXJl\/ZC1kaXNod2FzaGlu\/Zy1zcG9uZ2UtbmV4\/dC10by1tdWx0aS1j\/b2xvcmVkLXNwb25n\/ZXMtb24tYS1ibHVl\/LWJhY2tncm91bmQt\/dGhlLWNvbmNlcHQt\/b2YtaG9tZXdvcmst\/cGhvdG8uanBn"
+        },
+        {
+            "nombre": "Cepillo para Inodoro",
+            "tipo": "Art\u00edculos de Limpieza",
+            "codigo": "98761",
+            "precio": 3.99,
+            "img": "https:\/\/imgs.search.brave.com\/4J2hl0UWpWN9jdW8EaMLj90QO5ikA9hFYnlQ4KRTX78\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9odHRw\/Mi5tbHN0YXRpYy5j\/b20vRF9OUV9OUF84\/OTY5MTUtTUxBNDk4\/ODY4NjcxMjVfMDUy\/MDIyLVcud2VicA"
+        },
+        {
+            "nombre": "Toallas de Papel",
+            "tipo": "Art\u00edculos de Limpieza",
+            "codigo": "56789",
+            "precio": 1.49,
+            "img": "https:\/\/imgs.search.brave.com\/whe7stR4lzzOLxuqIKTRdtGFN40LRaCppHQpTE6Ymsg\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9tZWRp\/YS5nZXR0eWltYWdl\/cy5jb20vaWQvMTg1\/MDkwNDc3L2VzL2Zv\/dG8vdG9hbGxhLWRl\/LXBhcGVsLmpwZz9z\/PTYxMng2MTImdz0w\/Jms9MjAmYz1TelVG\/WVZ4b0tDdGU4YVFN\/MmEzYUdicE1RMDBZ\/TGkwa1p3YUlSSGFl\/SGtjPQ"
+        },
+        {
+            "nombre": "Desengrasante",
+            "tipo": "Art\u00edculos de Limpieza",
+            "codigo": "45612",
+            "precio": 4.29,
+            "img": "https:\/\/imgs.search.brave.com\/0Xo2x3q8eQT3kksVhiP6ciqCp1PEse7HV6_Fbu1K2EI\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9pbWcu\/ZnJlZXBpay5jb20v\/Zm90b3MtcHJlbWl1\/bS9mb3RvLWRlc2Vu\/Z3Jhc2FudGUtZWNv\/bG9naWNvXzc3ODc4\/MC0xODkyNi5qcGc_\/c2l6ZT02MjYmZXh0\/PWpwZw"
+        },
+        {
+            "nombre": "Cepillo para Suelos",
+            "tipo": "Art\u00edculos de Limpieza",
+            "codigo": "34501",
+            "precio": 5.99,
+            "img": "https:\/\/imgs.search.brave.com\/DVO2dg3r6HHUF5W11GnE2Pk0yeM8lq1EpKl0vzzI5DQ\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9jZG4u\/bWFub21hbm8uY29t\/L2NlcGlsbG8tZGUt\/c3VlbG8tcGFyYS1h\/c3BpcmFkb3ItOTA4\/MjAwLWRpZmYtUC0y\/NTUxMjktMTg1MjA3\/MDhfMS5qcGc"
+        },
+        {
+            "nombre": "Trapo de Microfibra",
+            "tipo": "Art\u00edculos de Limpieza",
+            "codigo": "12983",
+            "precio": 2.99,
+            "img": "https:\/\/imgs.search.brave.com\/it399c9EUh29rVwVSdLWROwFm_QmDUdfXeOpNIExp0w\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9pbWFn\/ZXMtbmEuc3NsLWlt\/YWdlcy1hbWF6b24u\/Y29tL2ltYWdlcy9J\/LzgxaGh2U1I2VXdM\/LmpwZw"
+        },
+        {
+            "nombre": "Bolsas de Basura",
+            "tipo": "Art\u00edculos de Limpieza",
+            "codigo": "76532",
+            "precio": 1.79,
+            "img": "https:\/\/imgs.search.brave.com\/uAh48S5FQWcx2QTOGfahaWnAugPDD_w2RDw5zoq7LZk\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9zdGF0\/aWM0LmRlcG9zaXRw\/aG90b3MuY29tLzEw\/MjYyOTAvMzg1L2kv\/NDUwL2RlcG9zaXRw\/aG90b3NfMzg1OTk3\/NS1zdG9jay1waG90\/by1nYXJiYWdlLWJh\/Zy5qcGc"
+        },
+        {
+            "nombre": "Ambientador",
+            "tipo": "Art\u00edculos de Limpieza",
+            "codigo": "89076",
+            "precio": 2.49,
+            "img": "https:\/\/imgs.search.brave.com\/wbEFZ_dfaWqaN1L_y3BWSZTfwaQlhFxGTWdZB4Rcu3o\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9zdC5k\/ZXBvc2l0cGhvdG9z\/LmNvbS8xMTc3OTcz\/LzI5MzAvaS80NTAv\/ZGVwb3NpdHBob3Rv\/c18yOTMwNjIyMy1z\/dG9jay1waG90by1h\/cm9tYXRpYy1zdGlj\/a3MtZm9yLWhvbWUt\/d2l0aC5qcGc"
+        },
+        {
+            "nombre": "Guantes de Limpieza",
+            "tipo": "Art\u00edculos de Limpieza",
+            "codigo": "23487",
+            "precio": 1.59,
+            "img": "https:\/\/imgs.search.brave.com\/CKQ4JRuI3Wwvb2ngmANlDKUE0GAhmLT4RxR7vJiTVZE\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9pbWcu\/ZnJlZXBpay5jb20v\/Zm90b3MtcHJlbWl1\/bS9tYW5vLWZlbWVu\/aW5hLWd1YW50ZS1n\/b21hLXF1ZS1tdWVz\/dHJhLXNpZ25vLW9r\/LWFpc2xhZG8tYmxh\/bmNvXzM5Mjg5NS0y\/NjQ3NTguanBnP3Np\/emU9NjI2JmV4dD1q\/cGc"
+        },
+        {
+            "nombre": "Papel Higi\u00e9nico",
+            "tipo": "Art\u00edculos de Limpieza",
+            "codigo": "76123",
+            "precio": 3.29,
+            "img": "https:\/\/imgs.search.brave.com\/WZbhB_WoouZJ2sctIcf426oculZ6C-3UGx884-3xs3A\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9pbWcu\/ZnJlZXBpay5jb20v\/Zm90by1ncmF0aXMv\/cHJpbWVyLXBsYW5v\/LXBhcGVsLWhpZ2ll\/bmljby1haXNsYWRv\/LXNvYnJlLWZvbmRv\/LWJsYW5jb185MzY3\/NS0xMzE2NDQuanBn\/P3NpemU9NjI2JmV4\/dD1qcGc"
+        },
+        {
+            "nombre": "alta limpieza papa",
+            "tipo": "Limpieza",
+            "codigo": "1234",
+            "precio": 34,
+            "img": "https:\/\/imgs.search.brave.com\/BIzS0mdp96TeOi6Q2OAEuhZGXh4MGqWJhlXbhaXkmso\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9lMDAt\/ZWxtdW5kby51ZWNk\/bi5lcy9hc3NldHMv\/bXVsdGltZWRpYS9p\/bWFnZW5lcy8yMDIz\/LzA0LzEyLzE2ODEz\/MTE1NTQwMDA1Lmpw\/Zw"
+        }
+    ]
+}

@@ -1,0 +1,109 @@
+{
+    "Bebidas": [
+        {
+            "nombre": "Agua Mineral",
+            "tipo": "Bebidas",
+            "codigo": "12345",
+            "precio": 1.49,
+            "img": "https:\/\/imgs.search.brave.com\/Nv6Sbg_sfkA56LsG9hIhzOtS_0JlgIxkXLt0IdkK40Y\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9tZWRp\/YS5nZXR0eWltYWdl\/cy5jb20vaWQvODUy\/MTA5NjUvZXMvZm90\/by9ib3R0bGUtb2Yt\/bWluZXJhbC13YXRl\/ci5qcGc_cz02MTJ4\/NjEyJnc9MCZrPTIw\/JmM9WExMZ29EWTl0\/ZnlxM05ERDE4RTZJ\/NEE5Zlpub181RUJt\/aFdQVFlPOFlzVT0"
+        },
+        {
+            "nombre": "Refresco de Cola",
+            "tipo": "Bebidas",
+            "codigo": "67890",
+            "precio": 1.99,
+            "img": "https:\/\/imgs.search.brave.com\/3aqmFfH5ZYS1rzIUCFb32Wvm0A_BjCGIzfNTHOJIiLU\/rs:fit:860:0:0\/g:ce\/aHR0cHM6Ly9tZWRp\/YS5nZXR0eWltYWdl\/cy5jb20vaWQvMTg1\/MjIwMjQ4L2VzL2Zv\/dG8vY29sYS1ib3Rl\/bGxhLWNvbi11bmEt\/ZXRpcXVldGEtZW4t\/YmxhbmNvLXNvYnJl\/LXVuLWZvbmRvLWJs\/YW5jby5qcGc_cz02\/MTJ4NjEyJnc9MCZr\/PTIwJmM9bzVXMGhq\/bE9saUdObUlHME9o\/bmpSejdTNng2MGtT\/alBQbEowRmFhckw2\/QT0"
+        },
+        {
+            "nombre": "Jugo de Naranja",
+            "tipo": "Bebidas",
+            "codigo": "54321",
+            "precio": 2.49,
+            "img": "https:\/\/media.gettyimages.com\/id\/1185315859\/es\/foto\/bottles-of-fruit-juice.jpg?s=612x612&w=0&k=20&c=kVIFObi33VGdvNZlb8z4PO0UpsDiYK9Tw1KGKc2hvwk="
+        },
+        {
+            "nombre": "Cerveza Pilsner",
+            "tipo": "Bebidas",
+            "codigo": "98765",
+            "precio": 3.99,
+            "img": "https:\/\/imgs.search.brave.com\/gC6B_1e9DSs-7nw1JY-1jat1QBf7TBaWLZa_Fv2Efdg\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9tZWRp\/YS5nZXR0eWltYWdl\/cy5jb20vaWQvMTM0\/Nzg3NDcxL2VzL2Zv\/dG8vYm90ZWxsYS1k\/ZS1jZXJ2ZXphLXh4\/eGwuanBnP3M9NjEy\/eDYxMiZ3PTAmaz0y\/MCZjPWltdEF1MHlV\/RWtXOWI2OVBJcXQ2\/WVZ2Y3RXT0stcHJw\/bzQyLUd6Q01vTUU9"
+        },
+        {
+            "nombre": "Vino Tinto",
+            "tipo": "Bebidas",
+            "codigo": "45678",
+            "precio": 8.99,
+            "img": "https:\/\/imgs.search.brave.com\/QGqkbrBig_v6g80-RWu2tHnPq5yNo2N08GwsOfzqGXA\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly90My5m\/dGNkbi5uZXQvanBn\/LzAyLzUyLzM3Lzg4\/LzM2MF9GXzI1MjM3\/ODg0N19OS2NWSlhk\/Um5RdHJ6blRIM3Aw\/RG1YamczUHVZWU9K\/bS5qcGc"
+        },
+        {
+            "nombre": "T\u00e9 Verde",
+            "tipo": "Bebidas",
+            "codigo": "23456",
+            "precio": 2.29,
+            "img": "https:\/\/imgs.search.brave.com\/zwP-jZdnAVwK8Nt_HO2IXWQ6DAmoiy-auIpbjg3yxAI\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9pbWcu\/ZnJlZXBpay5jb20v\/Zm90b3MtcHJlbWl1\/bS90YXphLXRlLWhv\/amFzLXZlcmRlcy1h\/aXNsYWRvLWJsYW5j\/b18zOTI4OTUtMzg0\/MjE5LmpwZz9zaXpl\/PTYyNiZleHQ9anBn"
+        },
+        {
+            "nombre": "Caf\u00e9 Instant\u00e1neo",
+            "tipo": "Bebidas",
+            "codigo": "87654",
+            "precio": 4.49,
+            "img": "https:\/\/imgs.search.brave.com\/oc94iE8AjBvHCve184Z3tFWu2n-Ld-knvEgBC-pVaxQ\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly90aHVt\/YnMuZHJlYW1zdGlt\/ZS5jb20vYi90YXJy\/by1kZWwtY2FmJUMz\/JUE5LWluc3RhbnQl\/QzMlQTFuZW8tMzQw\/MjE0Mi5qcGc"
+        },
+        {
+            "nombre": "Leche de Almendras",
+            "tipo": "Bebidas",
+            "codigo": "78901",
+            "precio": 2.99,
+            "img": "https:\/\/imgs.search.brave.com\/G-GZ2X6L0juPxwDx2P5r_TTc5DIvwHjSGSHyMbjieHw\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9zdDIu\/ZGVwb3NpdHBob3Rv\/cy5jb20vMTA5ODY5\/Mi81MjMwL2kvNjAw\/L2RlcG9zaXRwaG90\/b3NfNTIzMDEwMjEt\/c3RvY2stcGhvdG8t\/YWxtb25kLW1pbGsu\/anBn"
+        },
+        {
+            "nombre": "Jugo de Manzana",
+            "tipo": "Bebidas",
+            "codigo": "34567",
+            "precio": 2.29,
+            "img": "https:\/\/imgs.search.brave.com\/YrXxKfQ48GPeapjm7p3RE5AHeos1bjGpqcmBTBD3EpE\/rs:fit:860:0:0\/g:ce\/aHR0cHM6Ly9pbWcu\/ZnJlZXBpay5jb20v\/Zm90b3MtcHJlbWl1\/bS92YXNvLWp1Z28t\/bWFuemFuYS1wYWph\/LWRvcy1mcnV0YXMt\/bWFuemFuYS12ZXJk\/ZS1jb3J0YWRhcy1h\/aXNsYWRvLXNvYnJl\/LWZvbmRvLWJsYW5j\/b18xMjQ3MTctNjA4\/LmpwZz9zaXplPTYy\/NiZleHQ9anBn"
+        },
+        {
+            "nombre": "Limonada",
+            "tipo": "Bebidas",
+            "codigo": "23451",
+            "precio": 1.79,
+            "img": "https:\/\/imgs.search.brave.com\/U8YkmtnXCtMvrcwEuYa6tzTjrZnqJ514JW9vX83Ien0\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9tZWRp\/YS5nZXR0eWltYWdl\/cy5jb20vaWQvMTg1\/MjI2NTYzL3B0L2Zv\/dG8vbGltb25hZGEt\/dHJhZGljaW9uYWwu\/anBnP3M9NjEyeDYx\/MiZ3PTAmaz0yMCZj\/PTVpdTc0UmdoVzVs\/ejU0V3hmUkwtTUhn\/akJ4cnhXcXRBSFdF\/SWR0aVFiRUk9"
+        },
+        {
+            "nombre": "T\u00e9 de Hierbas",
+            "tipo": "Bebidas",
+            "codigo": "12356",
+            "precio": 2.79,
+            "img": "https:\/\/imgs.search.brave.com\/S21A58DqkAEP19DSg9gjzpzssL8FyKY728DISaG-9Os\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9tZWRp\/YS5nZXR0eWltYWdl\/cy5jb20vaWQvOTQ2\/NzY5MzcyL2VzL2Zv\/dG8vZ3JlZW4tdGVh\/LWdsYXNzLWN1cC13\/aXRoLWJhZy1pc29s\/YXRlZC1vbi13aGl0\/ZS1iYWNrZ3JvdW5k\/LmpwZz9zPTYxMng2\/MTImdz0wJms9MjAm\/Yz02aEZ2T3d1VVNq\/dXM1TWQ3RUxtUnlq\/WURCWVdwbExXZlJz\/ZFp5WElhcGJFPQ"
+        },
+        {
+            "nombre": "Caf\u00e9 Espresso",
+            "tipo": "Bebidas",
+            "codigo": "90876",
+            "precio": 3.29,
+            "img": "https:\/\/imgs.search.brave.com\/FUPrhK3QKZfV21u0WzFutpka59MZbvGFfVNygxgbcjA\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9pbWcu\/ZnJlZXBpay5jb20v\/Zm90b3MtcHJlbWl1\/bS9hcnRlLWxhdHRl\/LWNhcHVjaGluby1j\/YWZlLWNhbGllbnRl\/LWFpc2xhZG8tZm9u\/ZG8tYmxhbmNvXzE1\/ODUwMi0zMTUuanBn\/P3NpemU9NjI2JmV4\/dD1qcGc"
+        },
+        {
+            "nombre": "Refresco de Naranja",
+            "tipo": "Bebidas",
+            "codigo": "98761",
+            "precio": 1.99,
+            "img": "https:\/\/imgs.search.brave.com\/w3MeEnzemnfl7BxneMseAjO18xQMpgGKxBVIaDPvI_o\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9pbWcu\/ZnJlZXBpay5jb20v\/Zm90b3MtcHJlbWl1\/bS9ib3RlbGxhLWp1\/Z28tbmFyYW5qYS1z\/b2JyZS1mb25kby1i\/bGFuY28tdHJhemFk\/by1yZWNvcnRlXzYx\/NTM0OS0yNjcuanBn\/P3NpemU9NjI2JmV4\/dD1qcGc"
+        },
+        {
+            "nombre": "EL PRODUCTO ESTRELLA",
+            "tipo": "Bebidas",
+            "codigo": "1234",
+            "precio": 1.55,
+            "img": "https:\/\/imgs.search.brave.com\/BIzS0mdp96TeOi6Q2OAEuhZGXh4MGqWJhlXbhaXkmso\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9lMDAt\/ZWxtdW5kby51ZWNk\/bi5lcy9hc3NldHMv\/bXVsdGltZWRpYS9p\/bWFnZW5lcy8yMDIz\/LzA0LzEyLzE2ODEz\/MTE1NTQwMDA1Lmpw\/Zw"
+        },
+        {
+            "nombre": "GOOOOOOOOOOOOOD",
+            "tipo": "Bebidas",
+            "codigo": "1234",
+            "precio": 34,
+            "img": "https:\/\/imgs.search.brave.com\/vnbhZaxbba88uNHrgBAJFCIcy5sq7r84pxI5I5SghS4\/rs:fit:860:0:0\/g:ce\/aHR0cHM6Ly9pbWd2\/My5mb3Rvci5jb20v\/aW1hZ2VzL2hvbWVw\/YWdlLWZlYXR1cmUt\/Y2FyZC9SYW5kb20t\/aW1hZ2UtZ2VuZXJh\/dG9yXzUuanBn"
+        }
+    ]
+}

@@ -1,0 +1,109 @@
+{
+    "Frutas": [
+        {
+            "nombre": "Manzana",
+            "tipo": "Frutas",
+            "codigo": "12345",
+            "precio": 2.99,
+            "img": "https://imgs.search.brave.com/9oYtfJs9CPPl83s2r12vFUVv8J24lvhdrvyZMNISJ88/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/Zm90by1ncmF0aXMv/bWFuemFuYXMtcm9q/YXMtZnJlc2Nhcy1z/dWF2ZXMtanVnb3Nh/cy1lbnRlcmFzLXBl/cmZlY3Rhcy1lc2Ny/aXRvcmlvLWJsYW5j/b18xNzk2NjYtMjcx/LmpwZz9zaXplPTYy/NiZleHQ9anBn"
+        },
+        {
+            "nombre": "Banana",
+            "tipo": "Frutas",
+            "codigo": "67890",
+            "precio": 1.99,
+            "img": "https://imgs.search.brave.com/w-T4FYaH54QSJDtDHtkvI_5HcoEnaCp11xjR0kbOQAM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTI5/MTI2MjExMi9lcy9m/b3RvL3BsJUMzJUEx/dGFuby5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9MFlMWUl6/RF8wTGhQb2Y0MWh0/WWNxMEx3X1Q3OThR/d3VvbTJFMEc1OVhw/RT0"
+        },
+        {
+            "nombre": "Naranja",
+            "tipo": "Frutas",
+            "codigo": "54321",
+            "precio": 1.49,
+            "img": "https://imgs.search.brave.com/W4C352XcbmnxYWKTDqcrvCEefl_TNwhG7f6SVhJx7Hc/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4u/Y3JlYXRlLnZpc3Rh/LmNvbS9hcGkvbWVk/aWEvc21hbGwvNTE0/OTAxNDkvc3RvY2st/cGhvdG8tb3Jhbmdl/LWZydWl0cw.jpeg"
+        },
+        {
+            "nombre": "Pera",
+            "tipo": "Frutas",
+            "codigo": "98765",
+            "precio": 2.49,
+            "img": "https://imgs.search.brave.com/tPQYGHGvT0mJZjJffw6OORaDA2rubOEHxr4yk2fWlu8/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9m/cmVzaC13ZXQtcGVh/ci1mcnVpdF8xNDQ2/MjctMTcyMTEuanBn/P3NpemU9NjI2JmV4/dD1qcGc"
+        },
+        {
+            "nombre": "Fresa",
+            "tipo": "Frutas",
+            "codigo": "45678",
+            "precio": 3.99,
+            "img": ""
+        },
+        {
+            "nombre": "Frutilla",
+            "tipo": "Frutas",
+            "codigo": "23456",
+            "precio": 4.99,
+            "img": "https://imgs.search.brave.com/SaHOeqcqnGu2D6yz4D025sNM0Hz3mcvKWXxsWCCZFKY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/c3RvbmVrLmNvbS9G/T1RPUy9zdG9ja19t/YXkyMDA0L2ZydXRp/bGxhNDMzMy5qcGc"
+        },
+        {
+            "nombre": "Kiwi",
+            "tipo": "Frutas",
+            "codigo": "87654",
+            "precio": 2.69,
+            "img": "https://imgs.search.brave.com/wqwzSQ9aIL3zXoruv1g8MhNIDtHdcnkgs5NGafiTfhA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTg0/NjE0NTQ5L3B0L2Zv/dG8va2l3aXMuanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPU04/WUFkdHZRRm1TQXVL/Zmc4eFlPNkJHT0Rt/YzhNSENDSEptWXV4/YTFQUGc9"
+        },
+        {
+            "nombre": "Papaya",
+            "tipo": "Frutas",
+            "codigo": "78901",
+            "precio": 3.49,
+            "img": "https://imgs.search.brave.com/HX22J4XAdqUj5C921ttPK8NwicWbVHBkwUDWLD82_lA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE3/NzU3NzIzMy9lcy9m/b3RvL3BhcGF5YS1m/cnVpdC1pc29sYXRl/ZC1vbi13aGl0ZS1i/YWNrZ3JvdW5kLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz1S/U2djYXZGaFdlWUZq/WGVBQjA0NjJyeVJ4/ODRpWVVreDY2aWlY/T0VUazhBPQ"
+        },
+        {
+            "nombre": "Mango",
+            "tipo": "Frutas",
+            "codigo": "34567",
+            "precio": 2.89,
+            "img": "https://imgs.search.brave.com/P4K79ZysBag9sMUyngLulp8yX92xHqa4Qzx0k-eARWU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTM4/MzIxODkwNy9lcy9m/b3RvL2Zyb250LXZp/ZXctb2YtYS1seWlu/Zy1tYW5nby5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9dktx/ZDZROGp3VTRpOUNm/cmdZZ0NBWDZFdHdq/X3NKR2haZmRoSThO/QnNHRT0"
+        },
+        {
+            "nombre": "Ciruela",
+            "tipo": "Frutas",
+            "codigo": "23451",
+            "precio": 1.99,
+            "img": "https://imgs.search.brave.com/2Jp0pE5PkkoXkZMUiUzlf7XK1wsEStKtO3zIDubS1CY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTU3/NjgyMDAyL2VzL2Zv/dG8vcGx1bS5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9VWZ0/UDdkOF8xb2U4M2xr/SEF2TUlGakJPTW1U/QjA0Mno0cVRremJC/OUk2RT0"
+        },
+        {
+            "nombre": "Sandía",
+            "tipo": "Frutas",
+            "codigo": "12356",
+            "precio": 3.79,
+            "img": "https://imgs.search.brave.com/ACHrc3fK-a0FSAT4dnFvzFHaTvQt0z1XDZ3h5Ibbtg0/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/Zm90b3MtcHJlbWl1/bS9tZWxvbi1hZ3Vh/XzQ4OTgyNy0zMTEy/LmpwZw"
+        },
+        {
+            "nombre": "Durazno",
+            "tipo": "Frutas",
+            "codigo": "90876",
+            "precio": 2.29,
+            "img": "https://imgs.search.brave.com/WXBp7cNr2GAUfS2jPDc2xD6cO-aATcyeN5Pe9JwVtQY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/Zm90by1ncmF0aXMv/bWVsb2NvdG9uLW1l/c2FfMTQ0NjI3LTE3/NTE0LmpwZz9zaXpl/PTYyNiZleHQ9anBn"
+        },
+        {
+            "nombre": "Granada",
+            "tipo": "Frutas",
+            "codigo": "98761",
+            "precio": 3.99,
+            "img": "https://imgs.search.brave.com/sHKiZ192V44TILay0VQ4Z--zGKPJxLqs_ehapdWguJg/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvODc5/ODQ1NTQvZXMvZm90/by9oYWx2ZWQtcG9t/ZWdyYW5hdGUuanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPWdz/M0ppTkZVbkE2Z096/RGNwb21rUkczTl85/aU95bXNVRnlKQURT/aDRUNFE9"
+        },
+        {
+            "nombre": "Limón",
+            "tipo": "Frutas",
+            "codigo": "56789",
+            "precio": 1.49,
+            "img": "https://imgs.search.brave.com/zZgzqG6VcaeKL4jguuqczVuO2V-RUfa__UvMPpNX3JM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/Zm90by1ncmF0aXMv/bGltb24tc29icmUt/bWVzYV8xNDQ2Mjct/MjIxNzYuanBnP3Np/emU9NjI2JmV4dD1q/cGc"
+        },
+        {
+            "nombre": "Cereza",
+            "tipo": "Frutas",
+            "codigo": "45612",
+            "precio": 4.29,
+            "img": "https://imgs.search.brave.com/IppOccAvG1LzT_bxfnlqGomE4KB-EYPIA_CstfXVxPc/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTU3/NDI4NzY5L2VzL2Zv/dG8vY2hlcnJ5LXRy/aW8tY29uLXYlQzMl/QTFzdGFnby15LWwl/QzMlQTFtaW5hLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz1f/MDdseVVFdUExX2RY/blFBUS01VDZsUXhC/QUZ1RWlCb01VWWM3/U0o0Vm5JPQ"
+        }
+    ]
+}

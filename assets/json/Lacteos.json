@@ -1,0 +1,116 @@
+{
+    "Lacteos": [
+        {
+            "nombre": "Leche Entera",
+            "tipo": "L\u00e1cteos",
+            "codigo": "048123",
+            "precio": 2.49,
+            "img": "https:\/\/imgs.search.brave.com\/6XmvIOcH1lwr6eA04Xaw5Akx7e7EcWs94w8tMB9B5tc\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9tZWRp\/YS5nZXR0eWltYWdl\/cy5jb20vaWQvMTg0\/NjEyMTgyL2VzL2Zv\/dG8vbGVjaGUtZnJl\/c2NhLmpwZz9zPTYx\/Mng2MTImdz0wJms9\/MjAmYz11X1pyM0Yt\/M2dzbEFzY21VQjdR\/dk9uMkNMZllNd0dS\/Q0FWSVlrOFc2aEtv\/PQ"
+        },
+        {
+            "nombre": "Leche Desnatada",
+            "tipo": "L\u00e1cteos",
+            "codigo": "573812",
+            "precio": 2.29,
+            "img": "https:\/\/imgs.search.brave.com\/tIPuAkKGm0KP85F_ePIyGava0OIvfq33V5C26IdMiYI\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9tZWRp\/YS5nZXR0eWltYWdl\/cy5jb20vaWQvMTgz\/Nzc4MDMxL2VzL2Zv\/dG8vY2FydCVDMyVC\/M24tZGUtbGVjaGUt\/Y2xpcHBpbmctcGF0\/aC1ib3JkZS1kZS1j\/b3J0ZS5qcGc_cz02\/MTJ4NjEyJnc9MCZr\/PTIwJmM9RXQ2SGJt\/M0llUW84Yzl5SXFf\/eHN2amUyMmRxaVN5\/WEQxVnZyUVFMTEpI\/WT0"
+        },
+        {
+            "nombre": "Queso Cheddar",
+            "tipo": "L\u00e1cteos",
+            "codigo": "190236",
+            "precio": 4.99,
+            "img": "https:\/\/imgs.search.brave.com\/jwM65wdOXTLNESL3EJluqFcmOKooXIYeVs2Q4HvgHFs\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9tZWRp\/YS5nZXR0eWltYWdl\/cy5jb20vaWQvMTU3\/Mzc3MTEyL2VzL2Zv\/dG8vcXVlc28uanBn\/P3M9NjEyeDYxMiZ3\/PTAmaz0yMCZjPWR2\/Z05Salc1TFRDWWhy\/aFpnR2RPcU56TjVZ\/MFRFdE9FRll0dzJm\/ekh5Q3M9"
+        },
+        {
+            "nombre": "Queso Mozarella",
+            "tipo": "L\u00e1cteos",
+            "codigo": "812457",
+            "precio": 3.99,
+            "img": "https:\/\/imgs.search.brave.com\/0uRAmWchpbHahzMd4t82ChD52RMMKBFISEu5U45en30\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9tZWRp\/YS5nZXR0eWltYWdl\/cy5jb20vaWQvZmRj\/OTAyNTE5L2VzL2Zv\/dG8vdHdvLW1venph\/cmVsbGFzLmpwZz9z\/PTYxMng2MTImdz0w\/Jms9MjAmYz10NnFo\/dzBpRWY1ZE1rR3A0\/X2lDWS1IRExaMmdv\/ek5TVFg3WWtfSmlo\/TzFFPQ"
+        },
+        {
+            "nombre": "Yogur Natural",
+            "tipo": "L\u00e1cteos",
+            "codigo": "324567",
+            "precio": 1.79,
+            "img": "https:\/\/imgs.search.brave.com\/Hg3iJ7Xms9TNf3E3JAFOXzkhgWGBbjWcmgUvtiw7cFA\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9tZWRp\/YS5pc3RvY2twaG90\/by5jb20vaWQvODE5\/NzI0MTkyL2l0L2Zv\/dG8veW9ndXJ0LWlu\/LXVuLWNvbnRlbml0\/b3JlLWRpLXZldHJv\/LWlzb2xhdG8tc3Ut\/c2ZvbmRvLWJpYW5j\/by5qcGc_cz02MTJ4\/NjEyJnc9MCZrPTIw\/JmM9aThLM1RFSTBl\/R1c5Z1haa3ZydS1s\/SDhBdzNTWFd3NW9W\/ZU1HVWZfSHhvUT0"
+        },
+        {
+            "nombre": "Yogur de Fresa",
+            "tipo": "L\u00e1cteos",
+            "codigo": "895123",
+            "precio": 1.99,
+            "img": "https:\/\/imgs.search.brave.com\/lPwGFC88m21pDEeh_qHxULvbA0HCEwe03oiLzBfTYGU\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9pbWcu\/ZnJlZXBpay5jb20v\/Zm90by1ncmF0aXMv\/YWx0by1hbmd1bG8t\/ZGVsaWNpb3NvLXBv\/c3RyZS1zYWx1ZGFi\/bGVfMjMtMjE0ODU3\/OTM4OS5qcGc_c2l6\/ZT02MjYmZXh0PWpw\/Zw"
+        },
+        {
+            "nombre": "Mantequilla",
+            "tipo": "L\u00e1cteos",
+            "codigo": "456782",
+            "precio": 2.79,
+            "img": "https:\/\/imgs.search.brave.com\/mVJUFxW43Oz2ca-rPOFrJAslwSqqWL90xgiBNOpFFxg\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9tZWRp\/YS5nZXR0eWltYWdl\/cy5jb20vaWQvMTU3\/Mzc2Nzk5L2VzL2Zv\/dG8vbWFudGVxdWls\/bGEuanBnP3M9NjEy\/eDYxMiZ3PTAmaz0y\/MCZjPVFxLVZOX0VY\/eEYzX3FsSDlBd0V5\/M25QQkdmb2pKbTBy\/V0syUmprV1k2Sms9"
+        },
+        {
+            "nombre": "Crema Agria",
+            "tipo": "L\u00e1cteos",
+            "codigo": "329081",
+            "precio": 2.09,
+            "img": "https:\/\/imgs.search.brave.com\/Tn-ED5qAKEVuYEJZuYGiG6-tDeaO3dpzLGrZs3csi_E\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly93d3cu\/cGVxdWVyZWNldGFz\/LmNvbS93cC1jb250\/ZW50L3VwbG9hZHMv\/MjAyMS8wMi9zb3Vy\/LWNyZWFtLXJlY2V0\/YS5qcGc"
+        },
+        {
+            "nombre": "Yogurt Bebible",
+            "tipo": "L\u00e1cteos",
+            "codigo": "607234",
+            "precio": 3.49,
+            "img": "https:\/\/imgs.search.brave.com\/kZ-FENSZEbbr6B2ASd-tRUQca_iMOKhDfFD09qOVCPU\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9pbWcu\/ZnJlZXBpay5jb20v\/Zm90by1ncmF0aXMv\/c21vb3RoaWUtcm9z\/YWRvLXNhbm8tdmlz\/dGEtZGVsYW50ZXJh\/XzIzLTIxNDgyMjYw\/MzAuanBnP3NpemU9\/NjI2JmV4dD1qcGc"
+        },
+        {
+            "nombre": "Leche de Coco",
+            "tipo": "L\u00e1cteos",
+            "codigo": "234675",
+            "precio": 2.99,
+            "img": "https:\/\/imgs.search.brave.com\/VYXdlvB0vn364svDn_DQO_y9eCtXxizJ7_7W72YIONM\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9pbWcu\/ZnJlZXBpay5jb20v\/Zm90by1ncmF0aXMv\/Ym90ZWxsYS1sZWNo\/ZS12YXNvLWxlY2hl\/XzE0NDYyNy0zMDc1\/LmpwZz9zaXplPTYy\/NiZleHQ9anBn"
+        },
+        {
+            "nombre": "Yogur de Vainilla",
+            "tipo": "L\u00e1cteos",
+            "codigo": "812346",
+            "precio": 1.99,
+            "img": "https:\/\/imgs.search.brave.com\/-Qa946anQnfgpNn8JBTVI_ajmsmz6p-2qLU_IYj9qFU\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9zdDQu\/ZGVwb3NpdHBob3Rv\/cy5jb20vMTc2NTU2\/MS8xOTcyMC9pLzQ1\/MC9kZXBvc2l0cGhv\/dG9zXzE5NzIwNTcy\/NC1zdG9jay1waG90\/by15b2d1cnQtY29u\/dGFpbmVycy1pc29s\/YXRlZC1vbi1ncmV5\/LmpwZw"
+        },
+        {
+            "nombre": "Queso Parmesano",
+            "tipo": "L\u00e1cteos",
+            "codigo": "743289",
+            "precio": 4.29,
+            "img": "https:\/\/imgs.search.brave.com\/rFZdV9F-wSf_Bh1ZCBmBGpZ0STa514H7rxYqH7PNSuA\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9tZWRp\/YS5nZXR0eWltYWdl\/cy5jb20vaWQvMTE1\/MDMzNjI3L2VzL2Zv\/dG8vcXVlc28tcGFy\/bWVzYW5vLWl0YWxp\/YW5vLmpwZz9zPTYx\/Mng2MTImdz0wJms9\/MjAmYz1oUHd4Yy1o\/blhOcXI3dVY2UW9D\/UV93b1drXzNBZjVp\/X3V6SDVOdElfLVdV\/PQ"
+        },
+        {
+            "nombre": "Crema Catalana",
+            "tipo": "L\u00e1cteos",
+            "codigo": "561237",
+            "precio": 2.69,
+            "img": "https:\/\/imgs.search.brave.com\/aNVZwkwoVFOY-mI5zPgl5FV6Jk_lxIQj9PoBzpJHzkk\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly90NC5m\/dGNkbi5uZXQvanBn\/LzAwLzY2Lzk2LzM5\/LzM2MF9GXzY2OTYz\/OTc1XzlzZ2swa1A2\/VVFreHJscGM4SkVT\/Y1ZUTnhPYXVON0tN\/LmpwZw"
+        },
+        {
+            "nombre": "Leche de Soja",
+            "tipo": "L\u00e1cteos",
+            "codigo": "129543",
+            "precio": 2.39,
+            "img": "https:\/\/imgs.search.brave.com\/FnuVqR8TVaf1dFdgFlXyrw0C5uW08yFptnLBtoEykfM\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9pbWcu\/ZnJlZXBpay5jb20v\/Zm90by1ncmF0aXMv\/Y29uY2VwdG8tZGlh\/LWxlY2hlLWdhcmJh\/bnpvcy1hbHRvLWFu\/Z3Vsb18yMy0yMTQ5\/NDE1MDQ2LmpwZz9z\/aXplPTYyNiZleHQ9\/anBn"
+        },
+        {
+            "nombre": "Yogur de Coco",
+            "tipo": "L\u00e1cteos",
+            "codigo": "964281",
+            "precio": 2.49,
+            "img": "https:\/\/imgs.search.brave.com\/zP5U-ZFcfVNPWqItCT5_aTqh-OMOrsWGzWBC8AZRf9s\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly90MS51\/Yy5sdG1jZG4uY29t\/L2VzL3Bvc3RzLzQv\/Ny80L2NvbW9faGFj\/ZXJfeW9ndXJfY29u\/X2xlY2hlX2RlX2Nv\/Y29fNTE0NzRfNjAw\/LmpwZw"
+        },
+        {
+            "nombre": "LACTEO GOD",
+            "tipo": "Lacteos",
+            "codigo": "123",
+            "precio": 2.44,
+            "img": "https:\/\/imgs.search.brave.com\/BIzS0mdp96TeOi6Q2OAEuhZGXh4MGqWJhlXbhaXkmso\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9lMDAt\/ZWxtdW5kby51ZWNk\/bi5lcy9hc3NldHMv\/bXVsdGltZWRpYS9p\/bWFnZW5lcy8yMDIz\/LzA0LzEyLzE2ODEz\/MTE1NTQwMDA1Lmpw\/Zw"
+        }
+    ]
+}

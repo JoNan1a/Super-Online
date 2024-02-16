@@ -1,0 +1,109 @@
+{
+    "Panaderia": [
+        {
+            "nombre": "Pan Blanco",
+            "tipo": "Panadería",
+            "codigo": "12345",
+            "precio": 2.49,
+            "img": "https://imgs.search.brave.com/oFnOmgXOvGLtflcpS5XbyC6XGKkMrNfaqKkctMz6-ZY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTgy/ODM1NTA1L2VzL2Zv/dG8vYmFycmEtZGUt/cGFuLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz1CSEVRc1J3/R2JBODBYQ0VxTHpl/Q0k3RFU0X25peEtt/MjV6dFBZeHFtbm5B/PQ"
+        },
+        {
+            "nombre": "Pan Integral",
+            "tipo": "Panadería",
+            "codigo": "67890",
+            "precio": 2.99,
+            "img": "https://imgs.search.brave.com/1VwV_uSkhbSjLNACeitZTjSREx9DpyUnF5bxTh4xwwY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNTMw/Njk2MzM3L2VzL2Zv/dG8vcGFuLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1XS3U3/TEhLX0hlTFp4UmhO/WktJcUNYQ3drSHYt/bEp1c3dOdFp3ek45/TUFVPQ"
+        },
+        {
+            "nombre": "Croissant",
+            "tipo": "Panadería",
+            "codigo": "54321",
+            "precio": 1.49,
+            "img": "https://imgs.search.brave.com/pLXVPp_6cAunXqTSwciXNOAL9GtcZhKzp_jbDQ9jrT4/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zdC5k/ZXBvc2l0cGhvdG9z/LmNvbS8xMjYxMjk3/LzEzNDgvaS80NTAv/ZGVwb3NpdHBob3Rv/c18xMzQ4MjM5MC1z/dG9jay1waG90by1j/cm9pc3NhbnRzLXRy/YWRpdGlvbmFsLWZy/ZW5jaC1wYXN0cnku/anBn"
+        },
+        {
+            "nombre": "Baguette",
+            "tipo": "Panadería",
+            "codigo": "98765",
+            "precio": 1.99,
+            "img": "https://imgs.search.brave.com/d303ZqjJVfO2GhBA6sR-RCvBd2brcxR8YLdr7sxLApo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTgz/Mzg0MjA3L2VzL2Zv/dG8vYmFndWV0dGUu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PXQ5dXhId180NGN1/dkJZR0gySmYxX3FG/OUQzWU4waWdNNy1h/bFFKSDlVbHc9"
+        },
+        {
+            "nombre": "Panecillos de Canela",
+            "tipo": "Panadería",
+            "codigo": "45678",
+            "precio": 2.79,
+            "img": "https://imgs.search.brave.com/K111VDrDDFOCkzTBFEl-zdEdIJwHNGT38QOXIUdy77Q/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTI4/NDYxMjg1My9lcy9m/b3RvL2Jha2VkLXBh/bi1kZS1tdWVydG8t/b3ItYnJlYWQtb2Yt/dGhlLWRlYWQuanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPTFT/cFByYnNtOFFCLVBr/MDdjUWo2NVljbms3/R1dMUXIxS0RObkVr/QXQ3am89"
+        },
+        {
+            "nombre": "Bollos de Chocolate",
+            "tipo": "Panadería",
+            "codigo": "23456",
+            "precio": 1.89,
+            "img": "https://imgs.search.brave.com/EPhCo3CN8Wg37btbYmQoFfXDs_EICuYlo_WpfpsJyVA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zdDIu/ZGVwb3NpdHBob3Rv/cy5jb20vNDI3ODY0/MS82MzA4L2kvNDUw/L2RlcG9zaXRwaG90/b3NfNjMwODUwODMt/c3RvY2stcGhvdG8t/ZnJlc2hseS1iYWtl/ZC1jaW5uYW1vbi1i/dW5zLmpwZw"
+        },
+        {
+            "nombre": "Pastelitos de Frambuesa",
+            "tipo": "Panadería",
+            "codigo": "87654",
+            "precio": 1.99,
+            "img": "https://imgs.search.brave.com/KGWQ3Xm4JxbiVTHgQSMBDSrZ-D4LAruniD5qebGLR_E/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTgz/ODI0NjU2L2VzL2Zv/dG8vYm9sbG9zLWRl/LWFyJUMzJUExbmRh/bm9zLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz1ZbGxpdGpj/SlB6WEVOU1BQS2lf/c20zb2w0OEdoN0c2/TWZQTUd2bEcyaVE0/PQ"
+        },
+        {
+            "nombre": "Donuts Glaseados",
+            "tipo": "Panadería",
+            "codigo": "78901",
+            "precio": 1.29,
+            "img": "https://imgs.search.brave.com/f9-UYE-UjcOMIU9wwyzNSP-GacSDK1911BI5DIh6wEY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4w/LnJlY2V0YXNncmF0/aXMubmV0L2VzL3Bv/c3RzLzgvNC83L2ds/YXNlYWRvX2JsYW5j/b19wYXJhX2RvbmFz/XzU5NzQ4XzYwMC5q/cGc"
+        },
+        {
+            "nombre": "Barras de Pan Multigrano",
+            "tipo": "Panadería",
+            "codigo": "34567",
+            "precio": 2.59,
+            "img": "https://imgs.search.brave.com/OyRR_OxdJPk-bXcqM0hw2jpB3wluxcDZIOmkx9njQPo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/Zm90by1ncmF0aXMv/dmlzdGEtZnJvbnRh/bC1wYW4taG9ybmVh/ZG8tc29icmUtdGFi/bGEtbWFkZXJhLWVz/cGFjaW8tY29waWFf/MjMtMjE0ODM2MTYx/My5qcGc_c2l6ZT02/MjYmZXh0PWpwZw"
+        },
+        {
+            "nombre": "Pan de Ajo",
+            "tipo": "Panadería",
+            "codigo": "23451",
+            "precio": 2.19,
+            "img": "https://imgs.search.brave.com/M3ynOnAzPXnhm6x42FAGkzvJptNQkTTrFL89NoMMtt8/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTg1/MjY1NzQ2L2VzL2Zv/dG8vdG9zdGFkby1w/YW4tY29uLWFqby5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/Ql9ZanEzTTNHSFhD/Vjl1N2Eyem1LaWl3/d0Zfa2pXc2UzMnZ2/ZVN0cThWUT0"
+        },
+        {
+            "nombre": "Rosquillas de Azúcar",
+            "tipo": "Panadería",
+            "codigo": "12356",
+            "precio": 1.69,
+            "img": "https://imgs.search.brave.com/jVeWoquZ0VdmbA3LroWvTugoYndMSBExw-KqarBvBfI/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTcy/MjQ5ODg3L2VzL2Zv/dG8vcm9zY2EtZGUt/cmV5ZXMuanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPTBuRVh0/cWpxN29aMjNyRElj/MzN3eXlMNTBVWHJK/Sm9nVVFwbjlPcjky/MzQ9"
+        },
+        {
+            "nombre": "Panecillos de Queso",
+            "tipo": "Panadería",
+            "codigo": "90876",
+            "precio": 2.39,
+            "img": "https://imgs.search.brave.com/hPwVWzATTaOLSZoWVwcxVDwf6tDzh3TGeZARReUdpj8/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTU1/OTA4MzQyL2VzL2Zv/dG8vZG9zLWl0YWxp/YW5hLWJvbGxvcy1k/ZS1wYW4tY29uLWFq/by5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9UVdPLUdrLVZz/WmlGTkFxYlBCYVh5/dnRpUWw5YTBQZTcz/OGp6VEFUN2pOcz0"
+        },
+        {
+            "nombre": "Panecillos de Pasas",
+            "tipo": "Panadería",
+            "codigo": "98761",
+            "precio": 1.79,
+            "img": "https://imgs.search.brave.com/P4v3iHPSqtencpKgGSEnRnDNvOegjnJrMqW_kEduxy8/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWcu/YmVraWEuZXMvY29j/aW5hLzAwMDAvNDU5/LzEuanBn"
+        },
+        {
+            "nombre": "Tarta de Manzana",
+            "tipo": "Panadería",
+            "codigo": "56789",
+            "precio": 3.99,
+            "img": "https://imgs.search.brave.com/_uunACPhd6icbq8hJZ9SFp-VP_uOJCq6vUtFUZF3Zwo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTU1/MTMyODQzL2VzL2Zv/dG8vdHJvem8tZGUt/dGFydGEtZGUtbWFu/emFuYS5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9UXBzd1M3/X0tNWlZwell1X3Z3/YWUydGczQ2I3ak5I/ODVvQ3B3VF9Gb25f/cz0"
+        },
+        {
+            "nombre": "Pan de Centeno",
+            "tipo": "Panadería",
+            "codigo": "45612",
+            "precio": 2.79,
+            "img": "https://imgs.search.brave.com/o7UatxmaYBlOj_0kLN38Y9XaJ8f-2iR-BXHLkksRAv0/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTMx/MDU4NTY1OC9lcy9m/b3RvL2ZyZXNobHkt/YmFrZWQtYnJlYWQt/aXNvbGF0ZWQtb24t/d2hpdGUuanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPWpoVm5S/ajdZR01QZV9IQ0pJ/VWJHMWswcGh2VXU0/MnpNT2JXbDlBZ3Ew/Zjg9"
+        }
+    ]
+}

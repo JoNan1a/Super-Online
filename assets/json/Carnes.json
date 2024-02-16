@@ -1,0 +1,116 @@
+{
+    "Carnes": [
+        {
+            "nombre": "Pollo",
+            "tipo": "Carnes",
+            "codigo": "487621",
+            "precio": 5.99,
+            "img": "https:\/\/imgs.search.brave.com\/vQczxA1kgzMum5g_9Uj_8GDgoXeP3pzZjo9xZVsu0Go\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9pbWcu\/ZnJlZXBpay5jb20v\/cHJlbWl1bS1waG90\/by9yYXctY2hpY2tl\/bi1maWxsZXQtaXNv\/bGF0ZWQtd2hpdGUt\/YmFja2dyb3VuZC1j\/bG9zZXVwXzQ1NDA4\/My0zMDQuanBnP3Np\/emU9NjI2JmV4dD1q\/cGc"
+        },
+        {
+            "nombre": "Res",
+            "tipo": "Carnes",
+            "codigo": "902134",
+            "precio": 8.99,
+            "img": "https:\/\/imgs.search.brave.com\/STv1t-dAzEMwgLoB0zSuY8v_zvyOPz0rQbaVaqO-r-M\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9tZWRp\/YS5nZXR0eWltYWdl\/cy5jb20vaWQvMTU3\/NjgxNjE0L2VzL2Zv\/dG8vYmlzdGVjcy1k\/ZS1jYXJuZS1kZS1y\/ZXMtc2FsdGVhZGEu\/anBnP3M9NjEyeDYx\/MiZ3PTAmaz0yMCZj\/PTBuMlVYU2pOM0dp\/alNYbG5YVWpxUkY4\/bHYtZ3g0S18zNGdK\/RXNKVzBYV2M9"
+        },
+        {
+            "nombre": "Cerdo",
+            "tipo": "Carnes",
+            "codigo": "312489",
+            "precio": 6.49,
+            "img": "https:\/\/imgs.search.brave.com\/Y99OrC_VpCpbVb6yG_-piGKwWQvdVGZ0qFs2Ecie0-Q\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9pbWcu\/ZnJlZXBpay5jb20v\/Zm90by1ncmF0aXMv\/Y2FybmVfMTQ0NjI3\/LTI3NTM0LmpwZw"
+        },
+        {
+            "nombre": "Pavo",
+            "tipo": "Carnes",
+            "codigo": "765123",
+            "precio": 7.99,
+            "img": "https:\/\/imgs.search.brave.com\/kS_58tGIa8Hw4f7MMyvI96m7nEtPA50QBUkkC1Tfx8U\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9zdC5k\/ZXBvc2l0cGhvdG9z\/LmNvbS8xMDEwMDUw\/LzE4ODUvaS80NTAv\/ZGVwb3NpdHBob3Rv\/c18xODg1NjM4OS1z\/dG9jay1waG90by1y\/YXctdHVya2V5LWJy\/ZWFzdC5qcGc"
+        },
+        {
+            "nombre": "Jam\u00f3n",
+            "tipo": "Carnes",
+            "codigo": "645372",
+            "precio": 9.99,
+            "img": "https:\/\/imgs.search.brave.com\/VM4gMk3nITNmW5mfaRTpXHvrzXL1Wqgkvl-tL5U3g9w\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9zdC5k\/ZXBvc2l0cGhvdG9z\/LmNvbS8xNTQ0MzYy\/LzE2ODMvaS80NTAv\/ZGVwb3NpdHBob3Rv\/c18xNjgzMDE2Ny1z\/dG9jay1waG90by1q\/YWJ1Z28taGFtLXBs\/YXRlLWNsb3NldXAu\/anBn"
+        },
+        {
+            "nombre": "Salchicha",
+            "tipo": "Carnes",
+            "codigo": "128456",
+            "precio": 4.29,
+            "img": "https:\/\/imgs.search.brave.com\/ECOLWXlvS_HbeZroM3EvkLvNj2rLxNZT3932ZdENOwA\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9tZWRp\/YS5nZXR0eWltYWdl\/cy5jb20vaWQvMTcz\/ODkzNjY3L2VzL2Zv\/dG8vbWF0ZXJpYXMt\/cHJpbWFzLXBlcnJv\/cy1jYWxpZW50ZXMt\/ZW4tYmxhbmNvLmpw\/Zz9zPTYxMng2MTIm\/dz0wJms9MjAmYz1y\/dTlub0tmYnAzb0dK\/STE3R1VVMEh0WlVT\/RGZRWVJnWHktSmJK\/U0ZwcXM0PQ"
+        },
+        {
+            "nombre": "Chorizo",
+            "tipo": "Carnes",
+            "codigo": "409273",
+            "precio": 3.79,
+            "img": "https:\/\/imgs.search.brave.com\/cgaiy9aunwTHzw-lwu8X6q0UwfVQf0ZJMABGCUgCIbE\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9pbWcu\/ZnJlZXBpay5jb20v\/Zm90b3MtcHJlbWl1\/bS9zYWxjaGljaGEt\/Y2hvcml6by1lc3Bh\/bm9sLXNvYnJlLWZv\/bmRvLWJsYW5jby12\/aXN0YS1zdXBlcmlv\/ci1lc3BhY2lvLXRl\/eHRvXzI0OTAwNi0x\/NDc0Ni5qcGc_c2l6\/ZT02MjYmZXh0PWpw\/Zw"
+        },
+        {
+            "nombre": "Ternera",
+            "tipo": "Carnes",
+            "codigo": "234876",
+            "precio": 7.59,
+            "img": "https:\/\/imgs.search.brave.com\/Hei_iptVk4kfmbiWcjUU80YPT-Bbbfzcgb4ygMlv_KA\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9pbWcu\/ZnJlZXBpay5jb20v\/Zm90b3MtcHJlbWl1\/bS9maWxldGUtY2Fy\/bmUtdmFjYS1jcnVk\/YS1mcmVzY2EtYWlz\/bGFkYS1mb25kby1i\/bGFuY28tY2FtaW5v\/LXJlY29ydGVzXzIy\/ODMzOC0xMjQuanBn\/P3NpemU9NjI2JmV4\/dD1qcGc"
+        },
+        {
+            "nombre": "Costillas de Cordero",
+            "tipo": "Carnes",
+            "codigo": "784512",
+            "precio": 10.99,
+            "img": "https:\/\/imgs.search.brave.com\/eztmECt7lp_zg1R41edzmOj03pgXGa3JZcM0SyB9QSM\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9tZWRp\/YS5nZXR0eWltYWdl\/cy5jb20vaWQvMTA1\/MzkxNjQ4NC9lcy9m\/b3RvL2NhcnIlQzMl\/QTktZGUtY29yZGVy\/by1jb24tZXNwJUMz\/JUExcnJhZ29zLmpw\/Zz9zPTYxMng2MTIm\/dz0wJms9MjAmYz1R\/YzVaVWxVdDFJWHZB\/TDh2ZUF6eWs1dFdM\/Um5YdEQ5ODRXM2F2\/UlVCQmZvPQ"
+        },
+        {
+            "nombre": "Filete de Salm\u00f3n",
+            "tipo": "Carnes",
+            "codigo": "629134",
+            "precio": 12.49,
+            "img": "https:\/\/imgs.search.brave.com\/_i36r5JSikJu9BhwtKwALKcmrLPrDPLt4WD69zldOwo\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9tZWRp\/YS5nZXR0eWltYWdl\/cy5jb20vaWQvMTU3\/NjQxMjA4L2VzL2Zv\/dG8vc2FsbSVDMyVC\/M24uanBnP3M9NjEy\/eDYxMiZ3PTAmaz0y\/MCZjPVV0WkVwOFkw\/Zi1BVGk2ZU83ZDNP\/eXhFRERsdXJxVm5Q\/emNGMVlJYl9JaGc9"
+        },
+        {
+            "nombre": "Sardinas",
+            "tipo": "Carnes",
+            "codigo": "512489",
+            "precio": 5.29,
+            "img": "https:\/\/imgs.search.brave.com\/XwIuJB6WJRejRsiJdjxG4muit4_b8iKnm_O4tIBk04k\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9tZWRp\/YS5nZXR0eWltYWdl\/cy5jb20vaWQvMTQ1\/MTY2OTQ1L2VzL2Zv\/dG8vc2FyZGluZXMt\/b24td2F4LXBhcGVy\/LmpwZz9zPTYxMng2\/MTImdz0wJms9MjAm\/Yz1mbDRuYXZpc1NV\/TkFPRmhRWGt3TG0t\/dW5tLW9KZDFkVkxh\/ektqLW5zSTJzPQ"
+        },
+        {
+            "nombre": "Alb\u00f3ndigas",
+            "tipo": "Carnes",
+            "codigo": "364728",
+            "precio": 6.99,
+            "img": "https:\/\/imgs.search.brave.com\/ppXITDJH3l6IfLxXyOatssS5SMo-7tTKUNjwSw0gUVM\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9tZWRp\/YS5nZXR0eWltYWdl\/cy5jb20vaWQvMTcx\/NTkxOTY4L2VzL2Zv\/dG8vYWxiJUMzJUIz\/bmRpZ2FzLmpwZz9z\/PTYxMng2MTImdz0w\/Jms9MjAmYz1VNlk4\/Nk1mMlRTLW1vVVFu\/WkQwSzk2Y3p0Qkds\/VVpOMkNDTFNScUts\/ajNZPQ"
+        },
+        {
+            "nombre": "Tofu",
+            "tipo": "Carnes",
+            "codigo": "156489",
+            "precio": 3.99,
+            "img": "https:\/\/imgs.search.brave.com\/H8Ix37TcL0XQIS0tY1rLiZDYiUT1cA3r5dbYElHEqt4\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly90aHVt\/YnMuZHJlYW1zdGlt\/ZS5jb20vYi9tb3Jj\/ZWF1LWZyYWlzLWRl\/LXRvZnUtMzA5MDMy\/ODIuanBn"
+        },
+        {
+            "nombre": "Salchich\u00f3n",
+            "tipo": "Carnes",
+            "codigo": "798123",
+            "precio": 4.79,
+            "img": "https:\/\/imgs.search.brave.com\/IAl1a7IHFzZdIL3H9hKp0-ePiGPvwPlOa5nD00L2Jlw\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9tZWRp\/YS5nZXR0eWltYWdl\/cy5jb20vaWQvOTc2\/MTY1MzUyL2RlL2Zv\/dG8vcGlsZS1vZi1y\/ZWQtc2FsYW1pLWlz\/b2xhdGVkLW9uLWEt\/d2hpdGUtYmFja2dy\/b3VuZC5qcGc_cz02\/MTJ4NjEyJnc9MCZr\/PTIwJmM9Zmp1V1Ni\/UWVxc2M2V3hzZ041\/LUhqNGptbEM0bWNo\/c0I1YVdVcFNOa3JI\/ND0"
+        },
+        {
+            "nombre": "Carne de Pato",
+            "tipo": "Carnes",
+            "codigo": "712345",
+            "precio": 11.29,
+            "img": "https:\/\/imgs.search.brave.com\/3QYTgd3peJam75RTtXR7DB6eyY5SRJUJ7rUibW_iM28\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly90aHVt\/YnMuZHJlYW1zdGlt\/ZS5jb20vYi9wZWl0\/by1kZS1wYXRvLWNy\/dS03OTM3OTY3NS5q\/cGc"
+        },
+        {
+            "nombre": "asd",
+            "tipo": "Carnes",
+            "codigo": "1234",
+            "precio": 34,
+            "img": "https:\/\/imgs.search.brave.com\/vnbhZaxbba88uNHrgBAJFCIcy5sq7r84pxI5I5SghS4\/rs:fit:860:0:0\/g:ce\/aHR0cHM6Ly9pbWd2\/My5mb3Rvci5jb20v\/aW1hZ2VzL2hvbWVw\/YWdlLWZlYXR1cmUt\/Y2FyZC9SYW5kb20t\/aW1hZ2UtZ2VuZXJh\/dG9yXzUuanBn"
+        }
+    ]
+}

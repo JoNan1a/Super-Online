@@ -1,0 +1,87 @@
+/* Estilos para el formulario de registro */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 300px;
+
+}
+
+form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+
+}
+
+.campo {
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.campo label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.campo input[type="text"],
+.campo input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+.campo input[type="text"]:focus,
+.campo input[type="password"]:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.boton {
+    text-align: center;
+}
+
+.boton input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.boton input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+p {
+    text-align: center;
+}
+
+/* Estilos solo para los enlaces */
+.container a {
+    color: #000000;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+}
+
+.titulo {
+    font-size: 50px;
+}
