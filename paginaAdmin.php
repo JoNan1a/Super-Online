@@ -83,6 +83,97 @@ if(!isset($_SESSION['usuario']) || $_SESSION['usuario'] !== 'admin'){
             </form>
         </div>
 
+        <div id="modificarProducto" style="display: none">
+        <h4>Modificar Producto</h4>
+<form id="formModificarProducto">
+
+<!-- Campo para ingresar el código del producto a modificar -->
+<label for="codigoProductoModificar">Código del Producto:</label>
+    <input type="text" id="codigoProductoModificar" name="codigoProductoModificar" required><br><br>
+
+    <!-- Campo de selección de categoría -->
+    <label for="categoriaModificar">Categoría:</label>
+    <select name="categoriaModificar" id="categoriaModificar">
+    <option value="Bebidas">Bebidas</option>
+                    <option value="Carnes">Carnes</option>
+                    <option value="Frutas">Frutas</option>
+                    <option value="Golosinas">Golosinas</option>
+                    <option value="Lacteos">Lácteos</option>
+                    <option value="Limpieza">Limpieza</option>
+                    <option value="Panaderia">Panadería</option>
+                    <option value="Pastas">Pastas</option>
+    </select><br><br>
+
+    <!-- Campo de selección de tipo -->
+    <label for="tipoModificar">Tipo:</label>
+    <select name="tipoModificar" id="tipoModificar">
+    <option value="Bebidas">Bebidas</option>
+                    <option value="Carnes">Carnes</option>
+                    <option value="Frutas">Frutas</option>
+                    <option value="Golosinas">Golosinas</option>
+                    <option value="Lacteos">Lácteos</option>
+                    <option value="Limpieza">Limpieza</option>
+                    <option value="Panaderia">Panadería</option>
+                    <option value="Pastas">Pastas</option>
+    </select><br><br>
+
+
+    <!-- Campo para el nombre del producto -->
+    <label for="nombreModificar">Nombre del Producto:</label>
+    <input type="text" id="nombreModificar" name="nombreModificar" required><br><br>
+
+    <!-- Campo para el precio del producto -->
+    <label for="precioModificar">Precio:</label>
+    <input type="number" id="precioModificar" name="precioModificar" step="0.01" required><br><br>
+
+    <!-- Campo para la imagen del producto -->
+    <label for="imagenModificar">URL de la Imagen:</label>
+    <input type="text" id="imagenModificar" name="imagenModificar" required><br><br>
+
+    <!-- Botón para enviar el formulario -->
+    <input type="button" value="Modificar Producto" onclick="modificarProducto()">
+</form>
+    
+    
+    </div>
+
+
+        <div id="eliminarProducto" style="display: none;">
+    <h4>Eliminar Producto</h4>
+    <form id="formEliminarProducto">
+        <!-- Campo de selección de categoría -->
+        <label for="categoriaEliminar">Categoría:</label>
+        <select name="categoriaEliminar" id="categoriaEliminar">
+                    <option value="Bebidas">Bebidas</option>
+                    <option value="Carnes">Carnes</option>
+                    <option value="Frutas">Frutas</option>
+                    <option value="Golosinas">Golosinas</option>
+                    <option value="Lacteos">Lácteos</option>
+                    <option value="Limpieza">Limpieza</option>
+                    <option value="Panaderia">Panadería</option>
+                    <option value="Pastas">Pastas</option>
+        </select><br><br>
+
+        <!-- Campo de selección de tipo -->
+        <label for="tipoEliminar">Tipo:</label>
+        <select name="tipoEliminar" id="tipoEliminar">
+                    <option value="Bebidas">Bebidas</option>
+                    <option value="Carnes">Carnes</option>
+                    <option value="Frutas">Frutas</option>
+                    <option value="Golosinas">Golosinas</option>
+                    <option value="Lacteos">Lácteos</option>
+                    <option value="Limpieza">Limpieza</option>
+                    <option value="Panaderia">Panadería</option>
+                    <option value="Pastas">Pastas</option>
+        </select><br><br>
+
+        <label for="codigoProductoEliminar">Código del Producto:</label>
+        <input type="text" id="codigoProductoEliminar" name="codigoProductoEliminar" required><br><br>
+
+        <input type="button" value="Eliminar Producto" onclick="eliminarProducto()">
+    </form>
+</div>
+
         
 
     </div>
@@ -135,6 +226,76 @@ if(!isset($_SESSION['usuario']) || $_SESSION['usuario'] !== 'admin'){
         };
         xhr.send(JSON.stringify(nuevoProducto));
     }
+
+
+
+    function eliminarProducto() {
+    // Obtener los datos del formulario
+    var categoria = document.getElementById('categoriaEliminar').value;
+    var tipo = document.getElementById('tipoEliminar').value;
+    var codigoProducto = document.getElementById('codigoProductoEliminar').value;
+
+    // Crear un objeto con los datos del producto a eliminar
+    var productoEliminar = {
+        categoria: categoria,
+        tipo: tipo,
+        codigoProducto: codigoProducto
+    };
+
+    // Enviar los datos al servidor usando AJAX
+    var xhr = new XMLHttpRequest();
+    xhr.open('POST', 'admin/eliminarProducto.php', true);
+    xhr.setRequestHeader('Content-Type', 'application/json');
+    xhr.onload = function() {
+        if (xhr.status === 200) {
+            // Si la operación es exitosa, recargar la página para actualizar la lista de productos
+            location.reload();
+        } else {
+            // Si hay un error, mostrar un mensaje de error
+            alert('Error al eliminar el producto.');
+        }
+    };
+    xhr.send(JSON.stringify(productoEliminar));
+}
+
+
+
+function modificarProducto() {
+    // Obtener los datos del formulario
+    var codigoProducto = document.getElementById('codigoProductoModificar').value;
+    var categoria = document.getElementById('categoriaModificar').value;
+    var tipo = document.getElementById('tipoModificar').value;
+    var nombre = document.getElementById('nombreModificar').value;
+    var precio = parseFloat(document.getElementById('precioModificar').value);
+    var imagen = document.getElementById('imagenModificar').value;
+
+    // Crear un objeto con los datos del producto a modificar
+    var productoModificado = {
+        codigoProductoModificar: codigoProducto,
+        categoriaModificar: categoria,
+        tipoModificar: tipo,
+        nombreModificar: nombre,
+        precioModificar: precio,
+        imagenModificar: imagen
+    };
+
+    // Enviar los datos al servidor usando AJAX
+    var xhr = new XMLHttpRequest();
+    xhr.open('POST', 'admin/modificarProducto.php', true);
+    xhr.setRequestHeader('Content-Type', 'application/json');
+    xhr.onload = function() {
+        if (xhr.status === 200) {
+            // Si la operación es exitosa, redirigir a la página de administración
+            window.location.href = 'paginaAdmin.php';
+        } else {
+            // Si hay un error, mostrar un mensaje de error
+            alert('Error al modificar el producto.');
+        }
+    };
+    xhr.send(JSON.stringify(productoModificado));
+}
+
+
 </script>
 
 <script src="script.js"></script>
