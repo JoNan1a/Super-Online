@@ -1,12 +1,15 @@
 <?php 
 session_start();
 
+
 // Verifica si hay una sesión de usuario iniciada y si el usuario no es un administrador
 if(!isset($_SESSION['usuario']) || $_SESSION['usuario'] !== 'admin'){
-    // Si no es un administrador, redirige a la página de inicio de sesión
+    // Si no es un admin
     header("location:index.php");
     exit; 
 }
+
+
 ?>
 
 <!DOCTYPE html>
@@ -17,9 +20,14 @@ if(!isset($_SESSION['usuario']) || $_SESSION['usuario'] !== 'admin'){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/estilosPrincipales.css">
     <style>
-        h1,h2,h3,h4,h5,h6{
-            font-size: 23px;
-        }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: 23px;
+    }
     </style>
     <title>Administración - Super Online</title>
 </head>
@@ -39,8 +47,8 @@ if(!isset($_SESSION['usuario']) || $_SESSION['usuario'] !== 'admin'){
         <h1>Página de Administración</h1>
         <div class="containerAdmin">
             <div class="opciones-admin">
-                <!-- Botones para las opciones -->
-                <button onclick="mostrarFormulario('agregarProducto')">Agregar Producto</button>
+                <button style="margin-top:10px;" onclick="mostrarFormulario('agregarProducto')">Agregar
+                    Producto</button>
                 <button onclick="mostrarFormulario('modificarProducto')">Modificar Producto</button>
                 <button onclick="mostrarFormulario('eliminarProducto')">Eliminar Producto</button>
                 <button onclick="mostrarFormulario('agregarSeccion')">Agregar Sección</button>
@@ -63,7 +71,8 @@ if(!isset($_SESSION['usuario']) || $_SESSION['usuario'] !== 'admin'){
                         <label for="nombre">Nombre del Producto:</label>
                         <input type="text" name="nombre" id="nombre" required><br><br>
 
-                        <p style="border-bottom: 2px solid red;">Por favor, antes de agregar un nuevo código, asegúrate de verificar que no esté actualmente en uso en el buscador por código.</p>
+                        <p style="border-bottom: 2px solid red;">Por favor, antes de agregar un nuevo código, asegúrate
+                            de verificar que no esté actualmente en uso en el buscador por código.</p>
                         <label for="codigo">Código:</label>
                         <input type="number" name="codigo" id="codigo" required maxlength="7" pattern="[0-9]*"><br><br>
 
@@ -76,7 +85,7 @@ if(!isset($_SESSION['usuario']) || $_SESSION['usuario'] !== 'admin'){
                         <input type="button" value="Agregar Producto" onclick="agregarProducto()">
                     </form>
                 </div>
-
+                <!-- Formulario para modificar producto -->
                 <div id="modificarProducto" style="display: none">
                     <h3>Modificar Producto</h3>
                     <form id="formModificarProducto">
@@ -116,17 +125,17 @@ if(!isset($_SESSION['usuario']) || $_SESSION['usuario'] !== 'admin'){
 
                 </div>
 
-
+                <!-- Formulario para eliminar producto -->
                 <div id="eliminarProducto" style="display: none;">
                     <h4>Eliminar Producto</h4>
                     <p>ATENCION! Las categorias y el tipo de producto deben ser coincidir</p>
                     <form id="formEliminarProducto">
-                        <!-- Campo de selección de categoría -->
+
                         <label for="categoriaEliminar">Categoría:</label>
                         <select name="categoriaEliminar" id="categoriaEliminar">
                         </select><br><br>
 
-                        <!-- Campo de selección de tipo -->
+
                         <label for="tipoEliminar">Tipo:</label>
                         <select name="tipoEliminar" id="tipoEliminar">
                         </select><br><br>
@@ -139,6 +148,7 @@ if(!isset($_SESSION['usuario']) || $_SESSION['usuario'] !== 'admin'){
                     </form>
                 </div>
 
+                <!-- Formulario para agregar categoria de producto-->
                 <div id="agregarSeccion">
                     <h5>Crear nueva categoria de producto</h5>
                     <p>ATENCION! El nombre del archivo y de la categoria deben coincidir</p>
@@ -151,7 +161,7 @@ if(!isset($_SESSION['usuario']) || $_SESSION['usuario'] !== 'admin'){
                     </form>
                 </div>
 
-
+                <!-- Formulario para eliminar categoria de producto-->
                 <div id="eliminarSeccion">
                     <h6>Eliminar una categoría de producto</h6>
                     <select name="eliminarArchivo" id="eliminarArchivo">
@@ -160,12 +170,13 @@ if(!isset($_SESSION['usuario']) || $_SESSION['usuario'] !== 'admin'){
                 </div>
 
             </div>
-            
+
+            <!-- Filtar por codigo de producto -->
             <div class="filtroCodigo" style="display: flex; flex-direction: column; align-items: center;">
-    <input type="text" id="codigoBusqueda" placeholder="Buscar por código..." style="margin-bottom: 10px;">
-    <button class="filtrarProducto" style="margin-bottom: 10px;">Buscar código</button>
-    <div class="categorias-container" style="overflow-y: auto; max-height: 600px;"></div>
-</div>
+                <input type="text" id="codigoBusqueda" placeholder="Buscar por código..." style="margin-bottom: 10px;">
+                <button class="filtrarProducto" style="margin-bottom: 10px;">Buscar código</button>
+                <div class="categorias-container" style="overflow-y: auto; max-height: 600px;"></div>
+            </div>
 
         </div>
 
@@ -309,67 +320,63 @@ if(!isset($_SESSION['usuario']) || $_SESSION['usuario'] !== 'admin'){
         xhr.send(JSON.stringify(productoEliminar));
     }
 
-// Función para cargar los productos
-function cargarProductos() {
-    const url = "assets/json/";
-    console.log("Cargando productos desde:", url);
+    // Función para cargar los productos
+    function cargarProductos() {
+        const url = "assets/json/";
+        console.log("Cargando productos desde:", url);
 
-    fetch(url)
-        .then((response) => response.text())
-        .then((data) => {
-            console.log("Datos recibidos:", data);
+        fetch(url)
+            .then((response) => response.text())
+            .then((data) => {
+                console.log("Datos recibidos:", data);
 
-            // Parsear el HTML recibido para extraer los nombres de los archivos JSON
-            const parser = new DOMParser();
-            const htmlDoc = parser.parseFromString(data, "text/html");
-            const links = htmlDoc.querySelectorAll("a");
-            const categorias = Array.from(links)
-                .filter((link) => link.href.endsWith(".json"))
-                .map((link) => link.textContent.replace(".json", ""));
+                // Parsear el HTML recibido para extraer los nombres de los archivos JSON
+                const parser = new DOMParser();
+                const htmlDoc = parser.parseFromString(data, "text/html");
+                const links = htmlDoc.querySelectorAll("a");
+                const categorias = Array.from(links)
+                    .filter((link) => link.href.endsWith(".json"))
+                    .map((link) => link.textContent.replace(".json", ""));
 
-            console.log("Categorías encontradas:", categorias);
-
-            // Cargar los productos para cada categoría
-            categorias.forEach((categoria) => {
-                fetch(`${url}${categoria}.json`)
-                    .then((response) => response.json())
-                    .then((productos) => {
-                        console.log(`Productos cargados (${categoria}):`, productos);
-                        mostrarProductosEnHTML(categoria, productos);
-                    })
-                    .catch((error) => {
-                        console.error(`Error al cargar los productos (${categoria}):`, error);
-                    });
+                // Cargar los productos para cada categoría
+                categorias.forEach((categoria) => {
+                    fetch(`${url}${categoria}.json`)
+                        .then((response) => response.json())
+                        .then((productos) => {
+                            mostrarProductosEnHTML(categoria, productos);
+                        })
+                        .catch((error) => {
+                            console.error(`Error al cargar los productos (${categoria}):`, error);
+                        });
+                });
+            })
+            .catch((error) => {
+                console.error("Error al obtener la lista de archivos JSON:", error);
             });
-        })
-        .catch((error) => {
-            console.error("Error al obtener la lista de archivos JSON:", error);
-        });
-}
+    }
 
-// Función para mostrar los productos en el HTML
-function mostrarProductosEnHTML(categoria, productos) {
-    console.log(`Mostrando productos de la categoría "${categoria}" en el HTML`);
+    // Función para mostrar los productos en el HTML
+    function mostrarProductosEnHTML(categoria, productos) {
 
-    const container = document.querySelector(".categorias-container");
+        const container = document.querySelector(".categorias-container");
 
-    const categoriaTitulo = document.createElement("p");
-    categoriaTitulo.classList.add("nombre-categorias");
-    categoriaTitulo.textContent = categoria;
+        const categoriaTitulo = document.createElement("p");
+        categoriaTitulo.classList.add("nombre-categorias");
+        categoriaTitulo.textContent = categoria;
 
-    const categoriaArticle = document.createElement("article");
-    categoriaArticle.classList.add("article-categoria");
-    categoriaArticle.id = categoria;
+        const categoriaArticle = document.createElement("article");
+        categoriaArticle.classList.add("article-categoria");
+        categoriaArticle.id = categoria;
 
-    // Verificar si hay productos para mostrar
-    if (Array.isArray(productos[categoria]) && productos[categoria].length > 0) {
-        productos[categoria].forEach((producto) => {
-            // Crear la tarjeta de producto
-            const card = document.createElement("div");
-            card.classList.add("card");
+        // Verificar si hay productos para mostrar
+        if (Array.isArray(productos[categoria]) && productos[categoria].length > 0) {
+            productos[categoria].forEach((producto) => {
+                // Crear la tarjeta de producto
+                const card = document.createElement("div");
+                card.classList.add("card");
 
-            // Crear el contenido de la tarjeta
-            let contenidoCard = `
+                // Crear el contenido de la tarjeta
+                let contenidoCard = `
                 <img src="${producto.img}" alt="${producto.nombre}" class="card-imagen">
                 <div class="card-info">
                     <h3>${producto.nombre}</h3>
@@ -377,72 +384,71 @@ function mostrarProductosEnHTML(categoria, productos) {
                     <p>Codigo del producto: ${producto.codigo}</p>
             `;
 
-            // Agregar el campo "precio" solo si no es nulo
-            if (producto.precio !== null && typeof producto.precio !== 'undefined') {
-                contenidoCard += `<p>Precio: $${producto.precio.toFixed(2)}</p>`;
-            }
+                // Agregar el campo "precio" solo si no es nulo
+                if (producto.precio !== null && typeof producto.precio !== 'undefined') {
+                    contenidoCard += `<p>Precio: $${producto.precio.toFixed(2)}</p>`;
+                }
 
-            // Agregar el contenido a la tarjeta y la tarjeta al artículo de la categoría
-            card.innerHTML = contenidoCard;
-            categoriaArticle.appendChild(card);
-        });
-    } else {
-        console.warn(`No hay productos para mostrar en la categoría ${categoria}`);
+                // Agregar el contenido a la tarjeta y la tarjeta al artículo de la categoría
+                card.innerHTML = contenidoCard;
+                categoriaArticle.appendChild(card);
+            });
+        } else {
+            console.warn(`No hay productos para mostrar en la categoría ${categoria}`);
+        }
+
+        // Agregar el título de la categoría y el artículo al contenedor principal
+        container.appendChild(categoriaTitulo);
+        container.appendChild(categoriaArticle);
     }
 
-    // Agregar el título de la categoría y el artículo al contenedor principal
-    container.appendChild(categoriaTitulo);
-    container.appendChild(categoriaArticle);
-}
+    // Función para buscar productos por código
+    function buscarPorCodigo() {
+        // Obtener el valor del código de búsqueda del input
+        const codigoBusqueda = document.getElementById("codigoBusqueda").value.trim().toLowerCase();
 
-// Función para buscar productos por código
-function buscarPorCodigo() {
-    // Obtener el valor del código de búsqueda del input
-    const codigoBusqueda = document.getElementById("codigoBusqueda").value.trim().toLowerCase();
-    console.log("Buscando productos con el código:", codigoBusqueda);
+        // Obtener  los elementos de "article-categoria"
+        const categorias = document.querySelectorAll(".article-categoria");
 
-    // Obtener todos los elementos de clase "article-categoria"
-    const categorias = document.querySelectorAll(".article-categoria");
+        categorias.forEach(categoria => {
+            // Obtener todos los elementos hijos
+            const productos = categoria.querySelectorAll(".card");
 
-    // Iterar sobre cada categoría
-    categorias.forEach(categoria => {
-        // Obtener todos los elementos hijos de la categoría que tienen la clase "card"
-        const productos = categoria.querySelectorAll(".card");
+            productos.forEach(producto => {
+                // Obtener el código del producto actual
+                const codigoProducto = producto.querySelector("p:nth-child(3)").textContent
+                    .toLowerCase();
 
-        // Iterar sobre cada producto de la categoría
-        productos.forEach(producto => {
-            // Obtener el código del producto actual
-            const codigoProducto = producto.querySelector("p:nth-child(3)").textContent.toLowerCase();
-
-            // Mostrar u ocultar el producto según si coincide con el código de búsqueda
-            if (codigoProducto.includes(codigoBusqueda)) {
-                producto.style.display = "block"; // Mostrar el producto
-            } else {
-                producto.style.display = "none"; // Ocultar el producto
-            }
+                // Mostrar u ocultar el producto según si coincide con el código de búsqueda
+                if (codigoProducto.includes(codigoBusqueda)) {
+                    producto.style.display = "block";
+                } else {
+                    producto.style.display = "none";
+                }
+            });
         });
+    }
+
+    // Agregar un evento de clic al botón de búsqueda
+    document.querySelector(".filtrarProducto").addEventListener("click", buscarPorCodigo);
+
+    // Agregar un evento de entrada al input para detectar cambios en su valor
+    document.getElementById("codigoBusqueda").addEventListener("input", function() {
+        const codigoBusqueda = this.value.trim()
+            .toLowerCase(); // Obtener el valor del código de búsqueda y limpiarlo
+
+        // Si el valor del código de búsqueda está vacío
+        if (codigoBusqueda === "") {
+            // Restablecer la visualización de todos los productos
+            const productos = document.querySelectorAll(".card");
+            productos.forEach(producto => {
+                producto.style.display = "block"; // Mostrar todos los productos
+            });
+        }
     });
-}
 
-// Agregar un evento de clic al botón de búsqueda
-document.querySelector(".filtrarProducto").addEventListener("click", buscarPorCodigo);
-
-// Agregar un evento de entrada al input para detectar cambios en su valor
-document.getElementById("codigoBusqueda").addEventListener("input", function() {
-    const codigoBusqueda = this.value.trim().toLowerCase(); // Obtener el valor del código de búsqueda y limpiarlo
-
-    // Si el valor del código de búsqueda está vacío
-    if (codigoBusqueda === "") {
-        // Restablecer la visualización de todos los productos
-        const productos = document.querySelectorAll(".card");
-        productos.forEach(producto => {
-            producto.style.display = "block"; // Mostrar todos los productos
-        });
-    }
-});
-
-// Cargar los productos al cargar la página
-window.addEventListener("load", cargarProductos);
+    // Cargar los productos al cargar la página
+    window.addEventListener("load", cargarProductos);
 
 
 
@@ -554,7 +560,6 @@ window.addEventListener("load", cargarProductos);
     function actualizarTipo(categoria, tipoInput) {
         tipoInput.value = categoria;
     }
-
     // Agregar evento change a los selectores de categoría
     document.getElementById('categoria').addEventListener('change', function() {
         const categoriaSeleccionada = this.value;
@@ -573,7 +578,8 @@ window.addEventListener("load", cargarProductos);
         const tipoEliminar = document.getElementById('tipoEliminar');
         actualizarTipo(categoriaSeleccionada, tipoEliminar);
     });
-    
+
+
     cargarOpcionesSelects();
     </script>
     <script src="script.js"></script>

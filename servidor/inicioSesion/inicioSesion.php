@@ -20,5 +20,3 @@ if($Auth->iniciarSesion($usuario,$contrasena)){
     echo "Nombre de usuario o contraseña incorrectos";
 }
 ?>
-
-

@@ -200,7 +200,6 @@ nav a.cerrar-sesion {
 
 .boton input[type="submit"]:hover {
     background-color: #45a049;
-
 }
 
 /* Fin estilos para centrar el formulario */
@@ -228,47 +227,45 @@ nav a.cerrar-sesion {
 
 /* Fin estilos confirmacionCompra.php */
 
-
 /* Estilos productosCargados.php */
-.botonera-categorias{
+.botonera-categorias {
     display: flex;
     justify-content: center;
     gap: 20px;
     padding-top: 40px;
     padding-bottom: 20px;
     background-color: #67a24b;
-    
 }
-.botonera-categorias button{
+
+.botonera-categorias button {
     padding: 10px;
     font-size: 30px;
-    background-color: #4CAF50;
+    background-color: #4caf50;
     color: #fff;
     border: none;
     border-radius: 3px;
     cursor: pointer;
 }
 
-
 /* Fin estilos productosCargados.php */
 
 /* Estilos paginAdmin.php */
-.containerAdmin{
+.containerAdmin {
     display: flex;
     gap: 30px;
 }
 
-.opciones-admin{
-    width: 50%;
-    border: #1f3d11 2px solid;
-    
-}
-.filtroCodigo{
+.opciones-admin {
     width: 50%;
     border: #1f3d11 2px solid;
 }
 
-/* Estilos paginAdmin.php */
+.filtroCodigo {
+    width: 50%;
+    border: #1f3d11 2px solid;
+}
+
+/* Fin estilos paginAdmin.php */
 
 /* Footer */
 footer {
