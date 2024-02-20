@@ -37,34 +37,21 @@ if(!isset($_SESSION['usuario']) || $_SESSION['usuario'] !== 'admin'){
         <button onclick="mostrarFormulario('modificarProducto')">Modificar Producto</button>
         <button onclick="mostrarFormulario('eliminarProducto')">Eliminar Producto</button>
         <button onclick="mostrarFormulario('agregarSeccion')">Agregar Sección</button>
+        <button onclick="mostrarFormulario('eliminarSeccion')">Eliminar seccion</button>
         
         <!-- Formulario para agregar producto -->
         <div id="agregarProducto" style="display: none;">
             <h3>Formulario para Agregar Producto</h3>
             <form id="formAgregarProducto">
+            <p>ATENCION! Las categorias y el tipo de producto deben coincidir</p>
                 <label for="categoria">Categoría:</label>
                 <select name="categoria" id="categoria">
-                    <option value="Bebidas">Bebidas</option>
-                    <option value="Carnes">Carnes</option>
-                    <option value="Frutas">Frutas</option>
-                    <option value="Golosinas">Golosinas</option>
-                    <option value="Lacteos">Lácteos</option>
-                    <option value="Limpieza">Limpieza</option>
-                    <option value="Panaderia">Panadería</option>
-                    <option value="Pastas">Pastas</option>
+                    
                 </select><br><br>
 
                 <!-- Agregar campo para seleccionar el tipo -->
                 <label for="tipo">Tipo:</label>
                 <select name="tipo" id="tipo">
-                    <option value="Bebidas">Bebidas</option>
-                    <option value="Carnes">Carnes</option>
-                    <option value="Frutas">Frutas</option>
-                    <option value="Golosinas">Golosinas</option>
-                    <option value="Lacteos">Lácteos</option>
-                    <option value="Limpieza">Limpieza</option>
-                    <option value="Panaderia">Panadería</option>
-                    <option value="Pastas">Pastas</option>
                 </select><br><br>
 
                 <label for="nombre">Nombre del Producto:</label>
@@ -84,38 +71,22 @@ if(!isset($_SESSION['usuario']) || $_SESSION['usuario'] !== 'admin'){
         </div>
 
         <div id="modificarProducto" style="display: none">
-        <h4>Modificar Producto</h4>
-<form id="formModificarProducto">
+            <h4>Modificar Producto</h4>
+                <form id="formModificarProducto">
+                <p>ATENCION! Las categorias y el tipo de producto deben ser coincidir</p>
+                <!-- Campo para ingresar el código del producto a modificar -->
+                <label for="codigoProductoModificar">Código del Producto:</label>
+                    <input type="text" id="codigoProductoModificar" name="codigoProductoModificar" required><br><br>
 
-<!-- Campo para ingresar el código del producto a modificar -->
-<label for="codigoProductoModificar">Código del Producto:</label>
-    <input type="text" id="codigoProductoModificar" name="codigoProductoModificar" required><br><br>
+                    <!-- Campo de selección de categoría -->
+                    <label for="categoriaModificar">Categoría:</label>
+                    <select name="categoriaModificar" id="categoriaModificar">
+                    </select><br><br>
 
-    <!-- Campo de selección de categoría -->
-    <label for="categoriaModificar">Categoría:</label>
-    <select name="categoriaModificar" id="categoriaModificar">
-    <option value="Bebidas">Bebidas</option>
-                    <option value="Carnes">Carnes</option>
-                    <option value="Frutas">Frutas</option>
-                    <option value="Golosinas">Golosinas</option>
-                    <option value="Lacteos">Lácteos</option>
-                    <option value="Limpieza">Limpieza</option>
-                    <option value="Panaderia">Panadería</option>
-                    <option value="Pastas">Pastas</option>
-    </select><br><br>
-
-    <!-- Campo de selección de tipo -->
-    <label for="tipoModificar">Tipo:</label>
-    <select name="tipoModificar" id="tipoModificar">
-    <option value="Bebidas">Bebidas</option>
-                    <option value="Carnes">Carnes</option>
-                    <option value="Frutas">Frutas</option>
-                    <option value="Golosinas">Golosinas</option>
-                    <option value="Lacteos">Lácteos</option>
-                    <option value="Limpieza">Limpieza</option>
-                    <option value="Panaderia">Panadería</option>
-                    <option value="Pastas">Pastas</option>
-    </select><br><br>
+                    <!-- Campo de selección de tipo -->
+                    <label for="tipoModificar">Tipo:</label>
+                    <select name="tipoModificar" id="tipoModificar">
+                    </select><br><br>
 
 
     <!-- Campo para el nombre del producto -->
@@ -132,39 +103,24 @@ if(!isset($_SESSION['usuario']) || $_SESSION['usuario'] !== 'admin'){
 
     <!-- Botón para enviar el formulario -->
     <input type="button" value="Modificar Producto" onclick="modificarProducto()">
-</form>
+                    </form>
     
     
     </div>
 
 
-        <div id="eliminarProducto" style="display: none;">
+    <div id="eliminarProducto" style="display: none;">
     <h4>Eliminar Producto</h4>
+    <p>ATENCION! Las categorias y el tipo de producto deben ser coincidir</p>
     <form id="formEliminarProducto">
         <!-- Campo de selección de categoría -->
         <label for="categoriaEliminar">Categoría:</label>
         <select name="categoriaEliminar" id="categoriaEliminar">
-                    <option value="Bebidas">Bebidas</option>
-                    <option value="Carnes">Carnes</option>
-                    <option value="Frutas">Frutas</option>
-                    <option value="Golosinas">Golosinas</option>
-                    <option value="Lacteos">Lácteos</option>
-                    <option value="Limpieza">Limpieza</option>
-                    <option value="Panaderia">Panadería</option>
-                    <option value="Pastas">Pastas</option>
         </select><br><br>
 
         <!-- Campo de selección de tipo -->
         <label for="tipoEliminar">Tipo:</label>
         <select name="tipoEliminar" id="tipoEliminar">
-                    <option value="Bebidas">Bebidas</option>
-                    <option value="Carnes">Carnes</option>
-                    <option value="Frutas">Frutas</option>
-                    <option value="Golosinas">Golosinas</option>
-                    <option value="Lacteos">Lácteos</option>
-                    <option value="Limpieza">Limpieza</option>
-                    <option value="Panaderia">Panadería</option>
-                    <option value="Pastas">Pastas</option>
         </select><br><br>
 
         <label for="codigoProductoEliminar">Código del Producto:</label>
@@ -174,7 +130,21 @@ if(!isset($_SESSION['usuario']) || $_SESSION['usuario'] !== 'admin'){
     </form>
 </div>
 
-        
+        <div id="agregarSeccion">
+            <h5>Crear nuevo tipo de producto</h5>
+            <p>ATENCION! El nombre del archivo y de la categoria deben coincidir</p>
+            <form id="formGenerarJSON" action="adm  in/nuevoJson.php" method="POST">
+                <label for="nombreArchivo">Nombre del Archivo:</label>
+                <input type="text" id="nombreArchivo" name="nombreArchivo" required><br><br>
+
+                <label for="categoria">Categoría:</label>
+                <input type="text" id="categoria" name="categoria" required><br><br>
+
+                <input type="submit" value="Generar JSON">
+            </form>
+        </div>
+
+            </div>
 
     </div>
 </main>
@@ -294,6 +264,66 @@ function modificarProducto() {
     };
     xhr.send(JSON.stringify(productoModificado));
 }
+
+
+//Mostrar dinamicamente las opciones
+const url = 'assets/json/';
+
+// Lista de archivos JSON en la carpeta
+function obtenerArchivosJSON() {
+    return fetch(url)
+        .then(response => response.text())
+        .then(data => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(data, 'text/html');
+            const links = Array.from(htmlDoc.querySelectorAll('a'));
+            return links
+                .filter(link => link.href.endsWith('.json'))
+                .map(link => link.textContent.replace('.json', ''));
+        });
+}
+function cargarOpcionesSelects() {
+    const selectores = ['categoria','tipo', 'categoriaModificar', 'tipoModificar', 'categoriaEliminar', 'tipoEliminar'];
+    selectores.forEach(selector => {
+        const select = document.getElementById(selector);
+        obtenerArchivosJSON()
+            .then(archivos => {
+                archivos.forEach(archivo => {
+                    const option = document.createElement('option');
+                    option.value = archivo;
+                    option.textContent = archivo;
+                    select.appendChild(option);
+                });
+            })
+            .catch(error => console.error(`Error al cargar opciones para ${selector}:`, error));
+    });
+}
+
+// Función para actualizar el tipo automáticamente cuando se selecciona una categoría
+function actualizarTipo(categoria) {
+    const tipoModificar = document.getElementById('tipoModificar');
+    tipoModificar.value = categoria;
+}
+
+// Agregar evento change al selector de categoría
+document.getElementById('categoriaModificar').addEventListener('change', function() {
+    const categoriaSeleccionada = this.value;
+    actualizarTipo(categoriaSeleccionada);
+});
+
+// Llamar a la función para cargar las opciones de los selectores al cargar la página
+cargarOpcionesSelects();
+
+
+
+
+
+
+
+
+
+
+
 
 
 </script>

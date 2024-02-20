@@ -1,0 +1,18 @@
+{
+    "Tuerca": [
+        {
+            "nombre": "Agua Mineral",
+            "tipo": "Tuerca",
+            "codigo": "12345",
+            "precio": 1.49,
+            "img": "https:\/\/imgs.search.brave.com\/Nv6Sbg_sfkA56LsG9hIhzOtS_0JlgIxkXLt0IdkK40Y\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9tZWRp\/YS5nZXR0eWltYWdl\/cy5jb20vaWQvODUy\/MTA5NjUvZXMvZm90\/by9ib3R0bGUtb2Yt\/bWluZXJhbC13YXRl\/ci5qcGc_cz02MTJ4\/NjEyJnc9MCZrPTIw\/JmM9WExMZ29EWTl0\/ZnlxM05ERDE4RTZJ\/NEE5Zlpub181RUJt\/aFdQVFlPOFlzVT0"
+        },
+        {
+            "nombre": "Joaquin",
+            "tipo": "Tuerca",
+            "codigo": "1234",
+            "precio": 34,
+            "img": "https:\/\/imgs.search.brave.com\/BIzS0mdp96TeOi6Q2OAEuhZGXh4MGqWJhlXbhaXkmso\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9lMDAt\/ZWxtdW5kby51ZWNk\/bi5lcy9hc3NldHMv\/bXVsdGltZWRpYS9p\/bWFnZW5lcy8yMDIz\/LzA0LzEyLzE2ODEz\/MTE1NTQwMDA1Lmpw\/Zw"
+        }
+    ]
+}

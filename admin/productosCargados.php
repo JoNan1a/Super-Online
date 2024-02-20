@@ -26,16 +26,7 @@ if(!isset($_SESSION['usuario']) || $_SESSION['usuario'] !== 'admin'){
         <a href="../servidor/inicioSesion/cierreSesion.php" class="cerrar-sesion">Cerrar sesión</a>
     </nav>
 
-    <div class="botonera-categorias">
-    <button onclick="navegarACategoria('Bebidas')">Bebidas</button>
-    <button onclick="navegarACategoria('Carnes')">Carnes</button>
-    <button onclick="navegarACategoria('Frutas')">Frutas</button>
-    <button onclick="navegarACategoria('Golosinas')">Golosinas</button>
-    <button onclick="navegarACategoria('Panadería')">Panadería</button>
-    <button onclick="navegarACategoria('Pastas')">Pastas</button>
-    <button onclick="navegarACategoria('Limpieza')">Limpieza</button>
-    <button onclick="navegarACategoria('Lácteos')">Lácteos</button>
-</div>
+
 </header>
 <body>
 
@@ -43,37 +34,6 @@ if(!isset($_SESSION['usuario']) || $_SESSION['usuario'] !== 'admin'){
     
 <!-- Contenedor de categorías -->
 <div class="categorias-container">
-    <!-- Bebidas -->
-    <p class="nombre-categorias">Bebidas</p>
-    <article class="article-categoria" id="Bebidas"></article>
-
-    <!-- Carnes -->
-    <p class="nombre-categorias">Carnes</p>
-    <article class="article-categoria" id="Carnes"></article>
-
-    <!-- Frutas -->
-    <p class="nombre-categorias">Frutas</p>
-    <article class="article-categoria" id="Frutas"></article>
-
-    <!-- Golosinas -->
-    <p class="nombre-categorias">Golosinas</p>
-    <article class="article-categoria" id="Golosinas"></article>
-
-    <!-- Panadería -->
-    <p class="nombre-categorias">Panadería</p>
-    <article class="article-categoria" id="Panaderia"></article>
-
-    <!-- Pastas -->
-    <p class="nombre-categorias">Pastas</p>
-    <article class="article-categoria" id="Pastas"></article>
-
-    <!-- Limpieza -->
-    <p class="nombre-categorias">Limpieza</p>
-    <article class="article-categoria" id="Limpieza"></article>
-
-    <!-- Lácteos -->
-    <p class="nombre-categorias">Lácteos</p>
-    <article class="article-categoria" id="Lacteos"></article>
 </div>
 
 
@@ -81,73 +41,93 @@ if(!isset($_SESSION['usuario']) || $_SESSION['usuario'] !== 'admin'){
 
 
 <script>
-        // Función para cargar productos
-        function cargarProductos() {
-        const categorias = [
-            "Bebidas",
-            "Carnes",
-            "Frutas",
-            "Golosinas",
-            "Panaderia",
-            "Pastas",
-            "Limpieza",
-            "Lacteos",
-        ];
-
-        categorias.forEach((categoria) => {
-            fetch(`../assets/json/${categoria}.json`)
-                .then((response) => response.json())
-                .then((data) => {
-                    console.log(`Productos cargados (${categoria}):`, data);
-
-                    if (data[categoria] && Array.isArray(data[categoria])) {
-                        const categoriaArticle = document.getElementById(categoria);
-
-                        data[categoria].forEach((producto) => {
-                            const card = document.createElement("div");
-                            card.classList.add("card");
-
-                            const contenidoCard = `
-                                <img src="${producto.img}" alt="${producto.nombre}" class="card-imagen">
-                                <div class="card-info">
-                                    <h3>${producto.nombre}</h3>
-                                    <p>${producto.tipo}</p>
-                                    <p>Precio: $${producto.precio.toFixed(2)}</p>
-                                    
-                                </div>
-                            `;
-
-                            card.innerHTML = contenidoCard;
-                            categoriaArticle.appendChild(card);
-
-                            
+    function cargarProductos() {
+        const url = '../assets/json/';
+        fetch(url)
+            .then(response => response.text())
+            .then(data => {
+                // Parsear el HTML recibido para extraer los nombres de los archivos JSON
+                const parser = new DOMParser();
+                const htmlDoc = parser.parseFromString(data, 'text/html');
+                const links = htmlDoc.querySelectorAll('a');
+                const categorias = Array.from(links)
+                    .filter(link => link.href.endsWith('.json'))
+                    .map(link => link.textContent.replace('.json', ''));
+                
+                // Cargar los productos para cada categoría
+                categorias.forEach(categoria => {
+                    fetch(`${url}${categoria}.json`)
+                        .then(response => response.json())
+                        .then(productos => {
+                            console.log(`Productos cargados (${categoria}):`, productos);
+                            mostrarProductosEnHTML(categoria, productos);
+                        })
+                        .catch(error => {
+                            console.error(`Error al cargar los productos (${categoria}):`, error);
                         });
-                    } else {
-                        console.error(
-                            `Error al cargar los productos (${categoria}): El archivo JSON no tiene la estructura esperada.`
-                        );
-                    }
-                })
-                .catch((error) => {
-                    console.error(`Error al cargar los productos (${categoria}):`, error);
                 });
-        });
-    }
-    cargarProductos();
+            })
+            .catch(error => {
+                console.error('Error al obtener la lista de archivos JSON:', error);
+            });
 
-    function navegarACategoria(categoria) {
-        // Encontrar el elemento <p> con la clase "nombre-categorias" y el texto de la categoría deseada
-        var elementosCategorias = document.getElementsByClassName('nombre-categorias');
-        for (var i = 0; i < elementosCategorias.length; i++) {
-            var nombreCategoria = elementosCategorias[i].textContent;
-            if (nombreCategoria === categoria) {
-                // Hacer scroll hasta el elemento encontrado
-                elementosCategorias[i].scrollIntoView({ behavior: 'smooth' });
-                break;
-            }
-        }
+
     }
+
+    function mostrarProductosEnHTML(categoria, productos) {
+        const container = document.querySelector(".categorias-container");
+    
+        const categoriaTitulo = document.createElement("p");
+        categoriaTitulo.classList.add("nombre-categorias");
+        categoriaTitulo.textContent = categoria;
+    
+        const categoriaArticle = document.createElement("article");
+        categoriaArticle.classList.add("article-categoria");
+        categoriaArticle.id = categoria;
+    
+        // Verificar si hay productos para mostrar
+        if (Array.isArray(productos[categoria]) && productos[categoria].length > 0) {
+            productos[categoria].forEach(producto => {
+                const card = document.createElement("div");
+                card.classList.add("card");
+    
+                const contenidoCard = `
+                    <img src="${producto.img}" alt="${producto.nombre}" class="card-imagen">
+                    <div class="card-info">
+                        <h3>${producto.nombre}</h3>
+                        <p>Tipo de producto: ${producto.tipo}</p>
+                        <p>Precio: $${producto.precio.toFixed(2)}</p>
+                        <p>Codigo de producto: ${producto.codigo}</p>
+
+                        
+
+                    </div>
+                `;
+                card.innerHTML = contenidoCard;
+                categoriaArticle.appendChild(card);
+
+
+            });
+        } else {
+            console.warn(`No hay productos para mostrar en la categoría ${categoria}`);
+        }
+    
+        container.appendChild(categoriaTitulo);
+        container.appendChild(categoriaArticle);
+    }
+    
+
+
+
+
+
+
+    
+    cargarProductos();
 </script>
+
+
+
 
 
 

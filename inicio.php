@@ -32,22 +32,6 @@
 
 <main>
     <div class="categorias-container">
-        <p class="nombre-categorias">Bebidas</p>
-        <article class="article-categoria" id="Bebidas"></article>
-        <p class="nombre-categorias">Carnes</p>
-        <article class="article-categoria" id="Carnes"></article>
-        <p class="nombre-categorias">Frutas</p>
-        <article class="article-categoria" id="Frutas"></article>
-        <p class="nombre-categorias">Golosinas</p>
-        <article class="article-categoria" id="Golosinas"></article>
-        <p class="nombre-categorias">Panadería</p>
-        <article class="article-categoria" id="Panaderia"></article>
-        <p class="nombre-categorias">Pastas</p>
-        <article class="article-categoria" id="Pastas"></article>
-        <p class="nombre-categorias">Limpieza</p>
-        <article class="article-categoria" id="Limpieza"></article>
-        <p class="nombre-categorias">Lacteos</p>
-        <article class="article-categoria" id="Lacteos"></article>
     </div>
 </main>
 

@@ -6,62 +6,88 @@ document.addEventListener("DOMContentLoaded", function () {
     const carritoProductos = [];
     cargarCarritoDesdeAlmacenamiento();
 
-    // Función para cargar productos
     function cargarProductos() {
-        const categorias = [
-            "Bebidas",
-            "Carnes",
-            "Frutas",
-            "Golosinas",
-            "Panaderia",
-            "Pastas",
-            "Limpieza",
-            "Lacteos",
-        ];
+        const url = "assets/json/";
+        fetch(url)
+            .then((response) => response.text())
+            .then((data) => {
+                // Parsear el HTML recibido para extraer los nombres de los archivos JSON
+                const parser = new DOMParser();
+                const htmlDoc = parser.parseFromString(data, "text/html");
+                const links = htmlDoc.querySelectorAll("a");
+                const categorias = Array.from(links)
+                    .filter((link) => link.href.endsWith(".json"))
+                    .map((link) => link.textContent.replace(".json", ""));
 
-        categorias.forEach((categoria) => {
-            fetch(`assets/json/${categoria}.json`)
-                .then((response) => response.json())
-                .then((data) => {
-                    console.log(`Productos cargados (${categoria}):`, data);
-
-                    if (data[categoria] && Array.isArray(data[categoria])) {
-                        const categoriaArticle = document.getElementById(categoria);
-
-                        data[categoria].forEach((producto) => {
-                            const card = document.createElement("div");
-                            card.classList.add("card");
-
-                            const contenidoCard = `
-                                <img src="${producto.img}" alt="${producto.nombre}" class="card-imagen">
-                                <div class="card-info">
-                                    <h3>${producto.nombre}</h3>
-                                    <p>${producto.tipo}</p>
-                                    <p>Precio: $${producto.precio.toFixed(
-                                    2
-                                )}</p>
-                                    <button class="agregar-carrito" data-nombre="${producto.nombre}" data-precio="${producto.precio}" data-codigo="${producto.codigo}">Agregar al carrito</button>
-                                </div>
-                            `;
-
-                            card.innerHTML = contenidoCard;
-                            categoriaArticle.appendChild(card);
-
-                            const botonCarrito = card.querySelector(".agregar-carrito");
-                            botonCarrito.addEventListener("click", function () {
-                                agregarAlCarrito(producto);
-                            });
+                // Cargar los productos para cada categoría
+                categorias.forEach((categoria) => {
+                    fetch(`${url}${categoria}.json`)
+                        .then((response) => response.json())
+                        .then((productos) => {
+                            console.log(`Productos cargados (${categoria}):`, productos);
+                            mostrarProductosEnHTML(categoria, productos);
+                        })
+                        .catch((error) => {
+                            console.error(
+                                `Error al cargar los productos (${categoria}):`,
+                                error
+                            );
                         });
-                    } else {
-                        console.error(
-                            `Error al cargar los productos (${categoria}): El archivo JSON no tiene la estructura esperada.`
-                        );
-                    }
-                })
-                .catch((error) => {
-                    console.error(`Error al cargar los productos (${categoria}):`, error);
                 });
-        });
+            })
+            .catch((error) => {
+                console.error("Error al obtener la lista de archivos JSON:", error);
+            });
+    }
+
+    function mostrarProductosEnHTML(categoria, productos) {
+        const container = document.querySelector(".categorias-container");
+
+        const categoriaTitulo = document.createElement("p");
+        categoriaTitulo.classList.add("nombre-categorias");
+        categoriaTitulo.textContent = categoria;
+
+        const categoriaArticle = document.createElement("article");
+        categoriaArticle.classList.add("article-categoria");
+        categoriaArticle.id = categoria;
+
+        // Verificar si hay productos para mostrar
+        if (
+            Array.isArray(productos[categoria]) &&
+            productos[categoria].length > 0
+        ) {
+            productos[categoria].forEach((producto) => {
+                const card = document.createElement("div");
+                card.classList.add("card");
+
+                const contenidoCard = `
+                    <img src="${producto.img}" alt="${producto.nombre
+                    }" class="card-imagen">
+                    <div class="card-info">
+                        <h3>${producto.nombre}</h3>
+                        <p>${producto.tipo}</p>
+                        <p>Precio: $${producto.precio.toFixed(2)}</p>
+                        <button class="agregar-carrito" data-nombre="${producto.nombre
+                    }" data-precio="${producto.precio}" data-codigo="${producto.codigo
+                    }">Agregar al carrito</button>
+                    </div>
+                `;
+                card.innerHTML = contenidoCard;
+                categoriaArticle.appendChild(card);
+
+                const botonCarrito = card.querySelector(".agregar-carrito");
+                botonCarrito.addEventListener("click", function () {
+                    agregarAlCarrito(producto);
+                });
+            });
+        } else {
+            console.warn(
+                `No hay productos para mostrar en la categoría ${categoria}`
+            );
+        }
+
+        container.appendChild(categoriaTitulo);
+        container.appendChild(categoriaArticle);
     }
 
     // Función para cargar el carrito desde el almacenamiento local
@@ -192,17 +218,28 @@ document.addEventListener("DOMContentLoaded", function () {
             enlaceCompra.addEventListener("click", function (event) {
                 event.preventDefault(); // Evitar que el enlace redireccione inmediatamente
 
-                // Eliminar todos los productos del carrito
-                carritoProductos.splice(0, carritoProductos.length);
+                // Mostrar un mensaje de confirmación antes de finalizar la compra
+                var confirmacion = confirm(
+                    "¿Estás seguro de que quieres finalizar la compra?"
+                );
 
-                // Guardar el carrito vacío en el almacenamiento local
-                guardarCarritoEnAlmacenamiento();
+                // Si el usuario confirma la acción, proceder con la finalización de la compra
+                if (confirmacion) {
+                    // Eliminar todos los productos del carrito
+                    carritoProductos.splice(0, carritoProductos.length);
 
-                // Actualizar el contenido del carrito para que esté vacío
-                actualizarCarrito();
+                    // Guardar el carrito vacío en el almacenamiento local
+                    guardarCarritoEnAlmacenamiento();
 
-                // Redirigir al usuario a la página de finalización de compra
-                window.location.href = this.href;
+                    // Actualizar el contenido del carrito para que esté vacío
+                    actualizarCarrito();
+
+                    // Redirigir al usuario a la página de finalización de compra
+                    window.location.href = this.href;
+                } else {
+                    // Si el usuario cancela la acción, no hacer nada
+                    return false;
+                }
             });
         }
 
@@ -242,8 +279,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Cargar productos al cargar la página
     cargarProductos();
-
-
-
 });
-

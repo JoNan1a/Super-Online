@@ -104,6 +104,13 @@
             "codigo": "712345",
             "precio": 11.29,
             "img": "https:\/\/imgs.search.brave.com\/3QYTgd3peJam75RTtXR7DB6eyY5SRJUJ7rUibW_iM28\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly90aHVt\/YnMuZHJlYW1zdGlt\/ZS5jb20vYi9wZWl0\/by1kZS1wYXRvLWNy\/dS03OTM3OTY3NS5q\/cGc"
+        },
+        {
+            "nombre": "",
+            "tipo": "Bebidas",
+            "codigo": "",
+            "precio": null,
+            "img": ""
         }
     ]
 }
