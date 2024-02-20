@@ -1,32 +1,22 @@
 <?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Obtener los datos del formulario
-    $nombreArchivo = $_POST['nombreArchivo'];
+if(isset($_POST['nombreArchivo']) && isset($_POST['nombreCategoria'])){
+    $nombreArchivo = $_POST['nombreArchivo'] . '.json';
     $nombreCategoria = $_POST['nombreCategoria'];
 
-    // Validar que los datos no estén vacíos
-    if (!empty($nombreArchivo) && !empty($nombreCategoria)) {
-        // Estructura inicial del JSON
-        $estructuraJson = json_encode([$nombreCategoria => []], JSON_PRETTY_PRINT);
+    $datos = array(
+        $nombreCategoria => array()
+    );
 
-        // Ruta del archivo JSON
-        $rutaArchivo = '../assets/json/' . $nombreArchivo . '.json';
+    $jsonString = json_encode($datos);
 
-        // Guardar el JSON inicial en el archivo
-        file_put_contents($rutaArchivo, $estructuraJson);
+    $ruta = '../assets/json/' . $nombreArchivo; // Ruta donde se guardará el archivo
 
-        // Redirigir a la página de administración con un mensaje de éxito
-        header("Location: paginaAdmin.php?mensaje=JSON creado exitosamente");
-        exit;
+    if(file_put_contents($ruta, $jsonString)){
+        echo "Archivo JSON creado con éxito.";
     } else {
-        // Si los datos están vacíos, redirigir con un mensaje de error
-        header("Location: paginaAdmin.php?error=Debe completar todos los campos");
-        exit;
+        echo "Error al crear el archivo JSON.";
     }
 } else {
-    // Si no es una solicitud POST, redirigir con un mensaje de error
-    header("Location: paginaAdmin.php?error=Acceso no permitido");
-    exit;
+    echo "No se recibieron datos del formulario.";
 }
 ?>
-

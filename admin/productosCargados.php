@@ -41,38 +41,40 @@ if(!isset($_SESSION['usuario']) || $_SESSION['usuario'] !== 'admin'){
 
 
 <script>
-    function cargarProductos() {
-        const url = '../assets/json/';
+        function cargarProductos() {
+        const url = "../assets/json/";
         fetch(url)
-            .then(response => response.text())
-            .then(data => {
+            .then((response) => response.text())
+            .then((data) => {
                 // Parsear el HTML recibido para extraer los nombres de los archivos JSON
                 const parser = new DOMParser();
-                const htmlDoc = parser.parseFromString(data, 'text/html');
-                const links = htmlDoc.querySelectorAll('a');
+                const htmlDoc = parser.parseFromString(data, "text/html");
+                const links = htmlDoc.querySelectorAll("a");
                 const categorias = Array.from(links)
-                    .filter(link => link.href.endsWith('.json'))
-                    .map(link => link.textContent.replace('.json', ''));
-                
+                    .filter((link) => link.href.endsWith(".json"))
+                    .map((link) => link.textContent.replace(".json", ""));
+
                 // Cargar los productos para cada categoría
-                categorias.forEach(categoria => {
+                categorias.forEach((categoria) => {
                     fetch(`${url}${categoria}.json`)
-                        .then(response => response.json())
-                        .then(productos => {
+                        .then((response) => response.json())
+                        .then((productos) => {
                             console.log(`Productos cargados (${categoria}):`, productos);
                             mostrarProductosEnHTML(categoria, productos);
                         })
-                        .catch(error => {
-                            console.error(`Error al cargar los productos (${categoria}):`, error);
+                        .catch((error) => {
+                            console.error(
+                                `Error al cargar los productos (${categoria}):`,
+                                error
+                            );
                         });
                 });
             })
-            .catch(error => {
-                console.error('Error al obtener la lista de archivos JSON:', error);
+            .catch((error) => {
+                console.error("Error al obtener la lista de archivos JSON:", error);
             });
-
-
     }
+
 
     function mostrarProductosEnHTML(categoria, productos) {
         const container = document.querySelector(".categorias-container");
@@ -86,37 +88,45 @@ if(!isset($_SESSION['usuario']) || $_SESSION['usuario'] !== 'admin'){
         categoriaArticle.id = categoria;
     
         // Verificar si hay productos para mostrar
-        if (Array.isArray(productos[categoria]) && productos[categoria].length > 0) {
-            productos[categoria].forEach(producto => {
+        if (
+            Array.isArray(productos[categoria]) &&
+            productos[categoria].length > 0
+        ) {
+            productos[categoria].forEach((producto) => {
+                // Crear la tarjeta de producto
                 const card = document.createElement("div");
                 card.classList.add("card");
     
-                const contenidoCard = `
+                // Crear el contenido de la tarjeta
+                let contenidoCard = `
                     <img src="${producto.img}" alt="${producto.nombre}" class="card-imagen">
                     <div class="card-info">
                         <h3>${producto.nombre}</h3>
-                        <p>Tipo de producto: ${producto.tipo}</p>
-                        <p>Precio: $${producto.precio.toFixed(2)}</p>
-                        <p>Codigo de producto: ${producto.codigo}</p>
-
-                        
-
-                    </div>
+                        <p>Tipo del producto: ${producto.tipo}</p>
+                        <p>Codigo del producto: ${producto.codigo}</p>
                 `;
+    
+                // Agregar el campo "precio" solo si no es nulo
+                if (producto.precio !== null && typeof producto.precio !== 'undefined') {
+                    contenidoCard += `<p>Precio: $${producto.precio.toFixed(2)}</p>`;
+                }
+
+    
+                // Agregar el contenido a la tarjeta y la tarjeta al artículo de la categoría
                 card.innerHTML = contenidoCard;
                 categoriaArticle.appendChild(card);
-
-
+    
             });
         } else {
-            console.warn(`No hay productos para mostrar en la categoría ${categoria}`);
+            console.warn(
+                `No hay productos para mostrar en la categoría ${categoria}`
+            );
         }
     
+        // Agregar el título de la categoría y el artículo al contenedor principal
         container.appendChild(categoriaTitulo);
         container.appendChild(categoriaArticle);
     }
-    
-
 
 
 

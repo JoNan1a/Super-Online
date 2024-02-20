@@ -4,7 +4,7 @@
             "nombre": "Agua Mineral",
             "tipo": "Bebidas",
             "codigo": "12345",
-            "precio": 1.49,
+            "precio": 1.23,
             "img": "https:\/\/imgs.search.brave.com\/Nv6Sbg_sfkA56LsG9hIhzOtS_0JlgIxkXLt0IdkK40Y\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9tZWRp\/YS5nZXR0eWltYWdl\/cy5jb20vaWQvODUy\/MTA5NjUvZXMvZm90\/by9ib3R0bGUtb2Yt\/bWluZXJhbC13YXRl\/ci5qcGc_cz02MTJ4\/NjEyJnc9MCZrPTIw\/JmM9WExMZ29EWTl0\/ZnlxM05ERDE4RTZJ\/NEE5Zlpub181RUJt\/aFdQVFlPOFlzVT0"
         },
         {
@@ -34,6 +34,13 @@
             "codigo": "45678",
             "precio": 8.99,
             "img": "https:\/\/imgs.search.brave.com\/QGqkbrBig_v6g80-RWu2tHnPq5yNo2N08GwsOfzqGXA\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly90My5m\/dGNkbi5uZXQvanBn\/LzAyLzUyLzM3Lzg4\/LzM2MF9GXzI1MjM3\/ODg0N19OS2NWSlhk\/Um5RdHJ6blRIM3Aw\/RG1YamczUHVZWU9K\/bS5qcGc"
+        },
+        {
+            "nombre": "T\u00e9 Verde",
+            "tipo": "Bebidas",
+            "codigo": "23456",
+            "precio": 2.29,
+            "img": "https:\/\/imgs.search.brave.com\/zwP-jZdnAVwK8Nt_HO2IXWQ6DAmoiy-auIpbjg3yxAI\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9pbWcu\/ZnJlZXBpay5jb20v\/Zm90b3MtcHJlbWl1\/bS90YXphLXRlLWhv\/amFzLXZlcmRlcy1h\/aXNsYWRvLWJsYW5j\/b18zOTI4OTUtMzg0\/MjE5LmpwZz9zaXpl\/PTYyNiZleHQ9anBn"
         },
         {
             "nombre": "Caf\u00e9 Instant\u00e1neo",
@@ -85,28 +92,21 @@
             "img": "https:\/\/imgs.search.brave.com\/w3MeEnzemnfl7BxneMseAjO18xQMpgGKxBVIaDPvI_o\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9pbWcu\/ZnJlZXBpay5jb20v\/Zm90b3MtcHJlbWl1\/bS9ib3RlbGxhLWp1\/Z28tbmFyYW5qYS1z\/b2JyZS1mb25kby1i\/bGFuY28tdHJhemFk\/by1yZWNvcnRlXzYx\/NTM0OS0yNjcuanBn\/P3NpemU9NjI2JmV4\/dD1qcGc"
         },
         {
-            "nombre": "Joaquin Dos",
-            "tipo": "Bebidas",
-            "codigo": "23456",
-            "precio": 324,
-            "img": "https:\\\/\\\/imgs.search.brave.com\\\/BIzS0mdp96TeOi6Q2OAEuhZGXh4MGqWJhlXbhaXkmso\\\/rs:fit:500:0:0\\\/g:ce\\\/aHR0cHM6Ly9lMDAt\\\/ZWxtdW5kby51ZWNk\\\/bi5lcy9hc3NldHMv\\\/bXVsdGltZWRpYS9p\\\/bWFnZW5lcy8yMDIz\\\/LzA0LzEyLzE2ODEz\\\/MTE1NTQwMDA1Lmpw\\\/Zw"
-        },
-        {
-            "nombre": "asd",
-            "tipo": "Bebidas",
-            "codigo": "asd",
-            "precio": null,
-            "img": "https:\/\/imgs.search.brave.com\/BIzS0mdp96TeOi6Q2OAEuhZGXh4MGqWJhlXbhaXkmso\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9lMDAt\/ZWxtdW5kby51ZWNk\/bi5lcy9hc3NldHMv\/bXVsdGltZWRpYS9p\/bWFnZW5lcy8yMDIz\/LzA0LzEyLzE2ODEz\/MTE1NTQwMDA1Lmpw\/Zw"
-        },
-        {
-            "nombre": "asd",
+            "nombre": "GOOOOOOOOOOOOOD",
             "tipo": "Bebidas",
             "codigo": "1234",
             "precio": 34,
+            "img": "https:\/\/imgs.search.brave.com\/vnbhZaxbba88uNHrgBAJFCIcy5sq7r84pxI5I5SghS4\/rs:fit:860:0:0\/g:ce\/aHR0cHM6Ly9pbWd2\/My5mb3Rvci5jb20v\/aW1hZ2VzL2hvbWVw\/YWdlLWZlYXR1cmUt\/Y2FyZC9SYW5kb20t\/aW1hZ2UtZ2VuZXJh\/dG9yXzUuanBn"
+        },
+        {
+            "nombre": "Agua dos",
+            "tipo": "Bebidas",
+            "codigo": "45924",
+            "precio": 345,
             "img": "https:\/\/imgs.search.brave.com\/BIzS0mdp96TeOi6Q2OAEuhZGXh4MGqWJhlXbhaXkmso\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9lMDAt\/ZWxtdW5kby51ZWNk\/bi5lcy9hc3NldHMv\/bXVsdGltZWRpYS9p\/bWFnZW5lcy8yMDIz\/LzA0LzEyLzE2ODEz\/MTE1NTQwMDA1Lmpw\/Zw"
         },
         {
-            "nombre": "asd",
+            "nombre": "agua dos",
             "tipo": "Bebidas",
             "codigo": "1234",
             "precio": 34,

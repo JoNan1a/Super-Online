@@ -106,11 +106,11 @@
             "img": "https:\/\/imgs.search.brave.com\/3QYTgd3peJam75RTtXR7DB6eyY5SRJUJ7rUibW_iM28\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly90aHVt\/YnMuZHJlYW1zdGlt\/ZS5jb20vYi9wZWl0\/by1kZS1wYXRvLWNy\/dS03OTM3OTY3NS5q\/cGc"
         },
         {
-            "nombre": "",
-            "tipo": "Bebidas",
-            "codigo": "",
-            "precio": null,
-            "img": ""
+            "nombre": "asd",
+            "tipo": "Carnes",
+            "codigo": "1234",
+            "precio": 34,
+            "img": "https:\/\/imgs.search.brave.com\/vnbhZaxbba88uNHrgBAJFCIcy5sq7r84pxI5I5SghS4\/rs:fit:860:0:0\/g:ce\/aHR0cHM6Ly9pbWd2\/My5mb3Rvci5jb20v\/aW1hZ2VzL2hvbWVw\/YWdlLWZlYXR1cmUt\/Y2FyZC9SYW5kb20t\/aW1hZ2UtZ2VuZXJh\/dG9yXzUuanBn"
         }
     ]
 }

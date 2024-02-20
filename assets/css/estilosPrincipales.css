@@ -252,6 +252,23 @@ nav a.cerrar-sesion {
 
 /* Fin estilos productosCargados.php */
 
+/* Estilos paginAdmin.php */
+.containerAdmin{
+    display: flex;
+    gap: 30px;
+}
+
+.opciones-admin{
+    width: 50%;
+    border: #1f3d11 2px solid;
+    
+}
+.filtroCodigo{
+    width: 50%;
+    border: #1f3d11 2px solid;
+}
+/* Estilos paginAdmin.php */
+
 /* Footer */
 footer {
     width: 100%;

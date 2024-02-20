@@ -42,39 +42,52 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function mostrarProductosEnHTML(categoria, productos) {
         const container = document.querySelector(".categorias-container");
-
+    
         const categoriaTitulo = document.createElement("p");
         categoriaTitulo.classList.add("nombre-categorias");
         categoriaTitulo.textContent = categoria;
-
+    
         const categoriaArticle = document.createElement("article");
         categoriaArticle.classList.add("article-categoria");
         categoriaArticle.id = categoria;
-
+    
         // Verificar si hay productos para mostrar
         if (
             Array.isArray(productos[categoria]) &&
             productos[categoria].length > 0
         ) {
             productos[categoria].forEach((producto) => {
+                // Crear la tarjeta de producto
                 const card = document.createElement("div");
                 card.classList.add("card");
-
-                const contenidoCard = `
-                    <img src="${producto.img}" alt="${producto.nombre
-                    }" class="card-imagen">
+    
+                // Crear el contenido de la tarjeta
+                let contenidoCard = `
+                    <img src="${producto.img}" alt="${producto.nombre}" class="card-imagen">
                     <div class="card-info">
                         <h3>${producto.nombre}</h3>
                         <p>${producto.tipo}</p>
-                        <p>Precio: $${producto.precio.toFixed(2)}</p>
-                        <button class="agregar-carrito" data-nombre="${producto.nombre
-                    }" data-precio="${producto.precio}" data-codigo="${producto.codigo
-                    }">Agregar al carrito</button>
+                `;
+    
+                // Agregar el campo "precio" solo si no es nulo
+                if (producto.precio !== null && typeof producto.precio !== 'undefined') {
+                    contenidoCard += `<p>Precio: $${producto.precio.toFixed(2)}</p>`;
+                }
+    
+                // Agregar el botón para agregar al carrito
+                contenidoCard += `
+                        <button class="agregar-carrito" data-nombre="${producto.nombre}"
+                            data-precio="${producto.precio}" data-codigo="${producto.codigo}">
+                            Agregar al carrito
+                        </button>
                     </div>
                 `;
+    
+                // Agregar el contenido a la tarjeta y la tarjeta al artículo de la categoría
                 card.innerHTML = contenidoCard;
                 categoriaArticle.appendChild(card);
-
+    
+                // Agregar el evento click al botón de agregar al carrito
                 const botonCarrito = card.querySelector(".agregar-carrito");
                 botonCarrito.addEventListener("click", function () {
                     agregarAlCarrito(producto);
@@ -85,11 +98,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 `No hay productos para mostrar en la categoría ${categoria}`
             );
         }
-
+    
+        // Agregar el título de la categoría y el artículo al contenedor principal
         container.appendChild(categoriaTitulo);
         container.appendChild(categoriaArticle);
     }
-
+    
     // Función para cargar el carrito desde el almacenamiento local
     function cargarCarritoDesdeAlmacenamiento() {
         const carritoGuardado = localStorage.getItem("carrito");
