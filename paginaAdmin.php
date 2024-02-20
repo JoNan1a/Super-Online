@@ -74,7 +74,8 @@ if(!isset($_SESSION['usuario']) || $_SESSION['usuario'] !== 'admin'){
                         <p style="border-bottom: 2px solid red;">Por favor, antes de agregar un nuevo código, asegúrate
                             de verificar que no esté actualmente en uso en el buscador por código.</p>
                         <label for="codigo">Código:</label>
-                        <input type="number" name="codigo" id="codigo" required maxlength="7" pattern="[0-9]*"><br><br>
+                        <input type="number" name="codigo" id="codigo" oninput="javascript: if (this.value.length > 7) this.value = this.value.slice(0, 7);">
+
 
                         <label for="precio">Precio:</label>
                         <input type="number" name="precio" id="precio" required min="0"><br><br>
@@ -92,8 +93,9 @@ if(!isset($_SESSION['usuario']) || $_SESSION['usuario'] !== 'admin'){
                         <p>ATENCION! Las categorias y el tipo de producto deben ser coincidir</p>
                         <!-- Campo para ingresar el código del producto a modificar -->
                         <label for="codigoProductoModificar">Código del Producto:</label>
-                        <input type="number" id="codigoProductoModificar" name="codigoProductoModificar" required
-                            maxlength="7" pattern="[0-9]*"><br><br>
+                        <input type="number" id="codigoProductoModificar" name="codigoProductoModificar" oninput="javascript: if (this.value.length > 7) this.value = this.value.slice(0, 7);">
+                        <br><br><br>
+
 
                         <!-- Campo de selección de categoría -->
                         <label for="categoriaModificar">Categoría:</label>

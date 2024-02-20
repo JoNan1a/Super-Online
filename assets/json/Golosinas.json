@@ -5,91 +5,91 @@
             "tipo": "Golosinas",
             "codigo": "12345",
             "precio": 1.99,
-            "img": "https:\/\/imgs.search.brave.com\/FX99WOCliYs6Wtn2TmCN23sMJ8ILUmHea0ay8Inpk-E\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9zdGF0\/aWMudmVjdGVlenku\/Y29tL3RpL2ZvdG9z\/LWdyYXRpcy90Mi8x\/NTYwNjU5My1jbG9z\/ZXVwLWRlLXNvYnJl\/bWVzYS1kZS1jaG9j\/b2xhdGUtZ3JhdGlz\/LWZvdG8uanBn"
+            "img": "https://imgs.search.brave.com/FX99WOCliYs6Wtn2TmCN23sMJ8ILUmHea0ay8Inpk-E/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3RpL2ZvdG9z/LWdyYXRpcy90Mi8x/NTYwNjU5My1jbG9z/ZXVwLWRlLXNvYnJl/bWVzYS1kZS1jaG9j/b2xhdGUtZ3JhdGlz/LWZvdG8uanBn"
         },
         {
             "nombre": "Gomitas de Frutas",
             "tipo": "Golosinas",
             "codigo": "67890",
             "precio": 0.99,
-            "img": "https:\/\/imgs.search.brave.com\/VN1muYAQaSjQwnkoNvtI-Z3eJq3m6r2J5DRObENZcNo\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9tZWRp\/YS5nZXR0eWltYWdl\/cy5jb20vaWQvMTcx\/MzUwODY1L2VzL2Zv\/dG8vcGFzdGlsbGEt\/ZGUtZ29tYS5qcGc_\/cz02MTJ4NjEyJnc9\/MCZrPTIwJmM9ZFp6\/WXRNaDFhcmJnT2J6\/N0o1QjZqZzFPbFZX\/eFVxdlpJQlZaMlpB\/bGZrVT0"
+            "img": "https://imgs.search.brave.com/VN1muYAQaSjQwnkoNvtI-Z3eJq3m6r2J5DRObENZcNo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/Yy5nZXR0eWltYWdl/cy5jb20vaWQvMTcx/MzUwODY1L2VzL2Zv/dG8vcGFzdGlsbGEt/ZGUtZ29tYS5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9ZFp6/WXRNaDFhcmJnT2J6/N0o1QjZqZzFPbFZX/eFVxdlpJQlZaMlpB/bGZrVT0"
         },
         {
             "nombre": "Caramelos de Menta",
             "tipo": "Golosinas",
             "codigo": "54321",
             "precio": 1.29,
-            "img": "https:\/\/imgs.search.brave.com\/FS_dFAaG_-221KOUaSjSdCfqLJTfyx3B4FWafQiy8OI\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9pbWcu\/ZnJlZXBpay5jb20v\/Zm90b3MtcHJlbWl1\/bS9jaGljbGVzLWF6\/dWxlcy1ob2phcy1t\/ZW50YS1jb2xvY2Fk\/YXMtc29icmUtbWVz\/YS1waWVkcmFfMjgz\/MS04ODY1LmpwZz9z\/aXplPTYyNiZleHQ9\/anBn"
+            "img": "https://imgs.search.brave.com/FS_dFAaG_-221KOUaSjSdCfqLJTfyx3B4FWafQiy8OI/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/Zm90b3MtcHJlbWl1/bS9jaGljbGVzLWF6/dWxlcy1ob2phcy1t/ZW50YS1jb2xvY2Fk/YXMtc29icmUtbWVz/YS1waWVkcmFfMjgz/MS04ODY1LmpwZz9z/aXplPTYyNiZleHQ9/anBn"
         },
         {
             "nombre": "Chicles de Fresa",
             "tipo": "Golosinas",
             "codigo": "98765",
             "precio": 0.79,
-            "img": "https:\/\/imgs.search.brave.com\/9OTH6Ff-7WPEp1XR2jKbG_bSQBkmlljm987KFpCtpKc\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9pbWFn\/ZXMudW5zcGxhc2gu\/Y29tL3Bob3RvLTE2\/MTA5NjExMzg3Nzkt\/MjQzM2Y2ZmQyMjdh\/P3E9ODAmdz0xMDAw\/JmF1dG89Zm9ybWF0\/JmZpdD1jcm9wJml4\/bGliPXJiLTQuMC4z\/Jml4aWQ9TTN3eE1q\/QTNmREI4TUh4elpX\/RnlZMmg4TVRKOGZH\/Tm9hV05zWlh4bGJu\/d3dmSHd3Zkh4OE1B\/PT0.jpeg"
+            "img": "https://imgs.search.brave.com/9OTH6Ff-7WPEp1XR2jKbG_bSQBkmlljm987KFpCtpKc/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE2/MTA5NjExMzg3Nzkt/MjQzM2Y2ZmQyMjdh/P3E9ODAmdz0xMDAw/JmF1dG89Zm9ybWF0/JmZpdD1jcm9wJml4/bGliPXJiLTQuMC4z/Jml4aWQ9TTN3eE1q/QTNmREI4TUh4elpX/RnlZMmg4TVRK/OHFGeUJuV05zWlh4/bGJud3dmSHd3Zkh4/OE1BPT0.jpeg"
         },
         {
             "nombre": "Malvaviscos",
             "tipo": "Golosinas",
             "codigo": "45678",
             "precio": 1.49,
-            "img": "https:\/\/imgs.search.brave.com\/dyAzk6RJ24D_HHC40qlgNvoaLlaTBd2sV9Uv4xxRREs\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9tZWRp\/YS5nZXR0eWltYWdl\/cy5jb20vaWQvMTg0\/MzQ1Nzc1L2VzL2Zv\/dG8vYmFycmEtZGUt\/bWFsdmF2aXNjby1k\/ZS5qcGc_cz02MTJ4\/NjEyJnc9MCZrPTIw\/JmM9WE0zVGtraTFK\/RzNJWEtwRXB2dVVC\/OTFQWFZoSGwxaEpM\/YVR5ckZpRnctST0"
+            "img": "https://imgs.search.brave.com/dyAzk6RJ24D_HHC40qlgNvoaLlaTBd2sV9Uv4xxRREs/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/Yy5nZXR0eWltYWdl/cy5jb20vaWQvMTg0/MzQ1Nzc1L2VzL2Zv/dG8vYmFycmEtZGUt/bWFsdmF2aXNjby1k/ZS5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9WE0zVGtraTFK/RzNJWEtwRXB2dVVC/OTFQWFZoSGwxaEpM/YVR5ckZpRnctST0"
         },
         {
-            "nombre": "Palomitas de Ma\u00edz",
+            "nombre": "Palomitas de Maíz",
             "tipo": "Golosinas",
             "codigo": "23456",
             "precio": 1.79,
-            "img": "https:\/\/imgs.search.brave.com\/EQvccb1GWD7clrwRRUQgEMLOtJWpxIuF08VrWO88Ois\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9tZWRp\/YS5nZXR0eWltYWdl\/cy5jb20vaWQvMTgy\/OTA3MzY4L2VzL2Zv\/dG8vdGVhdHJvLXBp\/bGEtZGUtbGFzLXBh\/bG9taXRhcy1kZS1t\/YSVDMyVBRHouanBn\/P3M9NjEyeDYxMiZ3\/PTAmaz0yMCZjPXRX\/NDVTNDFOdnIxME9W\/SlNnSUM3VnpsMXhF\/UXNGeXhDTzloX09o\/T2NqZ289"
+            "img": "https://imgs.search.brave.com/EQvccb1GWD7clrwRRUQgEMLOtJWpxIuF08VrWO88Ois/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/Yy5nZXR0eWltYWdl/cy5jb20vaWQvMTgy/OTA3MzY4L2VzL2Zv/dG8vdGVhdHJvLXBp/bGEtZGUtbGFzLXBh/bG9taXRhcy1kZS1t/YWJhXzIwMTI4NC0w/NjA0OC5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9dFhMN1U0/UkM0TjU0MU52UjFNSU5O/dE9Oa2dvT3J2a3Rk/TWx0UWJkMnNWdVE5/MVBXRnNXbGJKY0Vn/aElMNkJpWmtyVEU5"
         },
         {
             "nombre": "Barra de Caramelo",
             "tipo": "Golosinas",
             "codigo": "87654",
             "precio": 1.39,
-            "img": "https:\/\/imgs.search.brave.com\/Rd0qdVymrwy3aA-vPgB-iF5qru6tO3DrCHVynkxS6mM\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9tZWRp\/YS5nZXR0eWltYWdl\/cy5jb20vcGhvdG9z\/L2NhcmFtZWwtY2hv\/Y29sYXRlLWJhci1j\/dXQtaW4taGFsZi1v\/bi1hLXdoaXRlLWJh\/Y2tncm91bmQtcGlj\/dHVyZS1pZDEzNTE0\/MzQzOT9rPTIwJm09\/MTM1MTQzNDM5JnM9\/NjEyeDYxMiZ3PTAm\/aD02VzlRczhzVzN1\/cFFpNDAwaWpIWUFt\/VTJUcEliZktkUldI\/amFKMGlERFFZPQ.jpeg"
+            "img": "https://imgs.search.brave.com/Rd0qdVymrwy3aA-vPgB-iF5qru6tO3DrCHVynkxS6mM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/Yy5nZXR0eWltYWdl/cy5jb20vcGhvdG9z/L2NhcmFtZWwtY2hv/Y29sYXRlLWJhci1j/dXQtaW4taGFsZi1v/bi1hLXdoaXRlLWJh/Y2tncm91bmQtcGlj/dHVyZS1pZDEzNTE0/MzQzOT9rPTIwJm09/MTM1MTQzNDM5JnM9/NjEyeDYxMiZ3PTAm/aD02VzlRczhzVzN1/cFFpNDAwaWpIWUFt/VTJUcEliZktkUldI/amFKMGlERFFZPQ.jpeg"
         },
         {
             "nombre": "Galletas de Chocolate",
             "tipo": "Golosinas",
             "codigo": "78901",
             "precio": 2.29,
-            "img": "https:\/\/imgs.search.brave.com\/ynh26WhR2lW_fPy49mzJeovFcaAJ4GgbsHNw9EaDYw8\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9tZWRp\/YS5nZXR0eWltYWdl\/cy5jb20vaWQvMTcy\/MjkwNjM4L2VzL2Zv\/dG8vZ2FsbGV0YS1j\/b24tcGVkYWNpdG9z\/LWRlLWNob2NvbGF0\/ZS5qcGc_cz02MTJ4\/NjEyJnc9MCZrPTIw\/JmM9TXRyeDE0Zmdv\/ZllyVFpPdTBxTTQ2\/ZlBycVZ6SHBMMkxM\/UXh0VkVfZmVTMD0"
+            "img": "https://imgs.search.brave.com/ynh26WhR2lW_fPy49mzJeovFcaAJ4GgbsHNw9EaDYw8/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/Yy5nZXR0eWltYWdl/cy5jb20vaWQvMTcy/MjkwNjM4L2VzL2Zv/dG8vZ2FsbGV0YS1j/b24tcGVkYWNpdG9z/LWRlLWNob2NvbGF0/ZS5qcGc_cz02MTJ4/NjEyJnc9/MCZrPTIwJmM9TXRyeDE0/ZmdvZllyVFpPdTBx/TTQ2ZlBycVZ6SHBL/TkxRWFo1b3J6Y25Z/NmdIVXNBMk1rNFlL/RHc9PQ"
         },
         {
             "nombre": "Chocolates de Cacahuate",
             "tipo": "Golosinas",
             "codigo": "34567",
             "precio": 1.99,
-            "img": "https:\/\/imgs.search.brave.com\/EBXslDBTOFjHq4jE1WE-zVzFerLQp2r0auaex-l_hK8\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9pbWFn\/ZXMudW5zcGxhc2gu\/Y29tL3Bob3RvLTE2\/MjM2NjAwNTM5NzUt\/Y2Y3NWE4YmUwOTA4\/P3E9ODAmdz0xMDAw\/JmF1dG89Zm9ybWF0\/JmZpdD1jcm9wJml4\/bGliPXJiLTQuMC4z\/Jml4aWQ9TTN3eE1q\/QTNmREI4TUh4elpX\/RnlZMmg4TW54OFlt\/RnljbUVsTWpCa1pT\/VXlNR05vYjJOdmJH\/RjBaWHhsYm53d2ZI\/d3dmSHg4TUE9PQ.jpeg"
+            "img": "https://imgs.search.brave.com/EBXslDBTOFjHq4jE1WE-zVzFerLQp2r0auaex-l_hK8/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE2/MjM2NjAwNTM5NzUt/Y2Y3NWE4YmUwOTA4/P3E9ODAmdz0xMDAw/JmF1dG89Zm9ybWF0/JmZpdD1jcm9wJml4/bGliPXJiLTQuMC4z/Jml4aWQ9TTN3eE1q/QTNmREI4TUh4elpX/RnlZMmg4TW54/OFltRnljbUVsTWpC/a1pTVXlNR05vYjJO/dmJHRjBaWHhsYm53/d2ZId3dmSHg4TUE9/PQ.jpeg"
         },
         {
             "nombre": "Caramelos de Vainilla",
             "tipo": "Golosinas",
             "codigo": "23451",
             "precio": 1.09,
-            "img": "https:\/\/imgs.search.brave.com\/gQ1GSYQCzcwRJ_66m5DQs6YCZibZHhWCkdO8GBwHCk0\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9pbWcu\/ZnJlZXBpay5jb20v\/Zm90by1ncmF0aXMv\/Y2FyYW1lbG8tZHVs\/Y2VfMTQ0NjI3LTE3\/NjQ5LmpwZz9zaXpl\/PTYyNiZleHQ9anBn"
+            "img": "https://imgs.search.brave.com/gQ1GSYQCzcwRJ_66m5DQs6YCZibZHhWCkdO8GBwHCk0/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/Zm90by1ncmF0aXMv/Y2FyYW1lbG9zLWR1/bGNlLWNob2NvbGF0/ZS1jaGlwLXJ1Lmpw/Zw"
         },
         {
             "nombre": "Chocolates con Leche",
             "tipo": "Golosinas",
             "codigo": "12356",
             "precio": 1.69,
-            "img": "https:\/\/imgs.search.brave.com\/3zD73FD73dz7WPULCqguunNBhGyGaz6jCbrLFhxM0vQ\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9tZWRp\/YS5nZXR0eWltYWdl\/cy5jb20vaWQvMTU3\/NDE5NDA0L2VzL2Zv\/dG8vYmFycmEtZGUt\/Y2hvY29sYXRlLWNv\/bi1ydXRhLmpwZz9z\/PTYxMng2MTImdz0w\/Jms9MjAmYz1EbTUw\/WVdoTHgxckh4M3Et\/S00xUC1HMUR1WXlz\/Q1dHSlpvWjczdnps\/RmNvPQ"
+            "img": "https://imgs.search.brave.com/3zD73FD73dz7WPULCqguunNBhGyGaz6jCbrLFhxM0vQ/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/Yy5nZXR0eWltYWdl/cy5jb20vaWQvMTU3/NDE5NDA0L2VzL2Zv/dG8vYmFycmEtZGUt/Y2hvY29sYXRlLWNv/bi1ydXRhLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1EbTUw/WVdoTHgxckh4M3Et/U00xUC1HMUR1WXlz/Q1dHSlpvWjczdnps/RmNvPQ"
         },
         {
             "nombre": "Galletas de Avena",
             "tipo": "Golosinas",
             "codigo": "90876",
             "precio": 1.79,
-            "img": "https:\/\/imgs.search.brave.com\/7H1Z_6V749YZ6C6Aw-gUahFp4-UuT0SOMgjEvSqiNWk\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9tZWRp\/YS5nZXR0eWltYWdl\/cy5jb20vaWQvMTEz\/MjQ1ODMxMS9lcy9m\/b3RvL2dhbGxldGFz\/LWNhc2VyYXMtZGUt\/aGFyaW5hLWRlLWF2\/ZW5hLWNvbi1jaGlw\/cy1kZS1jaG9jb2xh\/dGUuanBnP3M9NjEy\/eDYxMiZ3PTAmaz0y\/MCZjPU82bmJzeGhh\/a0RUR1dJMVd4OFJL\/QktpX0syM2ZJNnp5\/bWMtWkhIbWFxMEU9"
+            "img": "https://imgs.search.brave.com/7H1Z_6V749YZ6C6Aw-gUahFp4-UuT0SOMgjEvSqiNWk/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/Yy5nZXR0eWltYWdl/cy5jb20vaWQvMTEz/MjQ1ODMxMS9lcy9m/b3RvL2dhbGxldGFz/LWNhc2VyYXMtZGUt/aGFyaW5hLWRlLWF2/ZW5hLWNvbi1jaGlw/cy1kZS1jaG9jb2xh/dGUuanBnP3M9/NjEyXDYxMiZ3PTAm/aD02VzlRczhzVzN1/cFFpNDAwaWpIWUFt/VTJUcEliZktkUldI/amFKMGlERFFZPQ"
         },
         {
             "nombre": "Chocolate Blanco",
             "tipo": "Golosinas",
             "codigo": "98761",
             "precio": 2.09,
-            "img": "https:\/\/imgs.search.brave.com\/M82np137u7K3Hfer2tHeolJk9IoT5ClAK8nwd9ETYDE\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9pbWcu\/ZnJlZXBpay5jb20v\/Zm90b3MtcHJlbWl1\/bS9iYXJyYS1jaG9j\/b2xhdGUtYmxhbmNv\/LXNvYnJlLWZvbmRv\/LWJsYW5jby1jaG9j\/b2xhdGUtYWlzbGFk\/by1haS1nZW5lcmF0\/aXZvXzYyMTI3MS0x\/MzEuanBnP3NpemU9\/NjI2JmV4dD1qcGc"
+            "img": "https://imgs.search.brave.com/M82np137u7K3Hfer2tHeolJk9IoT5ClAK8nwd9ETYDE/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/Zm90b3MtcHJlbWl1/bS9iYXJyYS1jaG9j/b2xhdGUtYmxhbmNv/LXNvYnJlLWZvbmRv/LWJsYW5jby1jaG9j/b2xhdGUtYWlzbGFk/by1haS1nZW5lcmF0/aXZvXzYyMTI3MS0x/MzEuanBnP3NpemU9/NjI2JmV4dD1qcGc"
         },
         {
             "nombre": "Gomitas de Ositos",
@@ -108,7 +108,7 @@
         {
             "nombre": "supergolosina",
             "tipo": "Golosinas",
-            "codigo": "1234",
+            "codigo": "123434",
             "precio": 34,
             "img": "https:\/\/imgs.search.brave.com\/BIzS0mdp96TeOi6Q2OAEuhZGXh4MGqWJhlXbhaXkmso\/rs:fit:500:0:0\/g:ce\/aHR0cHM6Ly9lMDAt\/ZWxtdW5kby51ZWNk\/bi5lcy9hc3NldHMv\/bXVsdGltZWRpYS9p\/bWFnZW5lcy8yMDIz\/LzA0LzEyLzE2ODEz\/MTE1NTQwMDA1Lmpw\/Zw"
         }
